@@ -1,0 +1,9 @@
+started at date
+total 44
+lrwxrwxrwx 1 k022716 k0227    41 Apr 15 14:31 tmp -> /work/k0227/k022716/out/tutorial/H2O/tmp/
+-rw-r--r-- 1 k022716 k0227   834 Apr 15 14:32 relax.in
+-rw-r--r-- 1 k022716 k0227   444 Apr 15 15:43 run_h2o.sh
+-rw-r--r-- 1 k022716 k0227     0 Apr 15 15:56 err
+-rw-r--r-- 1 k022716 k0227    16 Apr 15 15:56 LOG
+-rw-r--r-- 1 k022716 k0227 48652 Apr 15 15:56 relax.out
+finifhed at date
