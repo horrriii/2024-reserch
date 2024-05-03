@@ -1,0 +1,46 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   restart_mode     = 'from_scratch'
+   nstep            = 100
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './tmp/'
+   prefix           = 'Cu_111'
+   etot_conv_thr    = 7.349864494991328e-07
+/
+&SYSTEM
+   ecutwfc          = 47.774119217443626
+   ecutrho          = 477.74119217443626
+   occupations      = 'smearing'
+   degauss          = 0.007349864494991328
+   smearing         = 'marzari-vanderbilt'
+   input_dft        = 'BEEF-vdW'
+   ntyp             = 1
+   nat              = 1
+   ibrav            = 0
+/
+&ELECTRONS
+   conv_thr         = 7.349864494991328e-12
+   mixing_beta      = 0.3333333333333333
+   diagonalization  = 'david'
+/
+&IONS
+   ion_dynamics     = 'bfgs'
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Cu 63.546 Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+8 8 8  0 0 0
+
+CELL_PARAMETERS angstrom
+-1.80000000000000 0.00000000000000 1.80000000000000
+0.00000000000000 1.80000000000000 1.80000000000000
+-1.80000000000000 1.80000000000000 0.00000000000000
+
+ATOMIC_POSITIONS angstrom
+Cu 0.0000000000 0.0000000000 0.0000000000 
+

@@ -1,11 +1,11 @@
 #!/bin/sh
-#SBATCH -J h2o
+#SBATCH -J Cu_fcc
 #SBATCH -p F4cpu
 #SBATCH -N 2
 #SBATCH -n 128
 #SBATCH -c 2
 #SBATCH -o LOG
-#SBATCH -e err
+#SBATCH -e ERR
 
 #
 echo started at 'date'
