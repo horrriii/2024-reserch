@@ -7,7 +7,7 @@ from ase.optimize import BFGS
 from ase.constraints import UnitCellFilter
 
 ecutwfc=650*(eV/Ry)
-kpt_mesh=[8,8,8]
+kpt_mesh=[12,12,12]
 
 pseudos=json.load(open('./../pslibrary.json'))
 
