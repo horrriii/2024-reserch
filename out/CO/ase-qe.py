@@ -7,22 +7,19 @@ from ase.optimize import BFGS
 from ase.constraints import UnitCellFilter
 
 ecutwfc=650*(eV/Ry)
-kpt_mesh=[24,24,24]
+kpt_mesh=[1,1,1]
 
-pseudos=json.load(open('./../pslibrary.json'))
+pseudos=json.load(open('./pslibrary.json'))
 
-qe_input_data = {'control': {'calculation' : 'vc-relax',
+qe_input_data = {'control': {'calculation' : 'relax',
                              'outdir' : './tmp/',
-                             'prefix' : 'Cu_111',
+                             'prefix' : 'CO',
                              'nstep'  : 100,
                              'etot_conv_thr' : 1e-5*(eV/Ry),
                              'restart_mode' : 'from_scratch'
                             },
                  'system':  {'ecutwfc': ecutwfc,
                              'ecutrho': ecutwfc*10,
-                             'occupations' : 'smearing',
-                             'smearing' : 'marzari-vanderbilt',
-                             'degauss' : 0.1*(eV/Ry),
                              'input_dft' : 'BEEF-vdW'
                             },
                  'electrons': {'diagonalization' : 'david',
@@ -35,9 +32,7 @@ qe_input_data = {'control': {'calculation' : 'vc-relax',
 pseudopotentials = pseudos
 calc = Espresso(pseudopotentials=pseudopotentials,input_data=qe_input_data,
                 tstress=True, tprnfor=True, kpts=kpt_mesh)
-cu=read('Cu_fcc.in',format='espresso-in')
+cu=read('CO.in',format='espresso-in')
 cu.calc = calc
-write('cu_opt.xyz',cu)
 etot=cu.get_potential_energy()
 print('Total energy: %12.8f eV' % etot)
-kpt_mesh.pop()

@@ -1,0 +1,41 @@
+{
+    "system": {
+        "ecutwfc": 650,
+        "ecutrho": 6500,
+        "nosym": true,
+        "noinv": true,
+        "occupations": "smearing",
+        "degauss": 0.05,
+        "assume_isolated": "none",
+        "input_dft": "pbe"
+    },
+    "control": {
+        "calculation": "scf",
+        "title": "REPLACE-THIS-TITLE",
+        "verbosity": "high",
+        "wf_collect": true,
+        "nstep": 200,
+        "prefix": "REPLACE-THIS-TITLE",
+        "max_seconds": 1210000,
+        "outdir": "./tmp/",
+        "disk_io": "medium",
+        "etot_conv_thr": 1e-05,
+        "tprnfor": true,
+        "tstress": true,
+        "pseudo_dir": "./pseudo"
+    },
+    "electrons": {
+        "electron_maxstep": 9000,
+        "scf_must_converge": true,
+        "conv_thr": 1e-07,
+        "mixing_mode": "plain",
+        "mixing_beta": 0.33,
+        "mixing_ndim": 12,
+        "diagonalization": "david",
+        "diago_david_ndim": 2
+    },
+    "ions": {
+    },
+    "cell": {
+    }
+}

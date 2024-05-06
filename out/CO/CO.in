@@ -1,0 +1,33 @@
+&control
+ calculation  = 'relax'
+ restart_mode = 'from_scratch',
+ pseudo_dir   =  '/home/ikutaro/QE/pseudo/'
+ outdir       = './tmp'
+ prefix       = 'h2'
+ tprnfor      = .true.
+forc_conv_thr = 1.d-4
+/
+&system
+   ibrav   = 1
+   A       = 10.0d0
+   nat     = 2
+   ntyp    = 2
+   ecutwfc = 50
+   ecutrho = 500
+   input_dft='PBE'
+/
+&electrons
+   diagonalization = 'david'
+   conv_thr        = 1.0e-12
+   mixing_beta     = 0.1
+/
+&ions
+ ion_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+ C 12.0107  C.pbe-n-kjpaw_psl.1.0.0.UPF
+ O 15.9994  O.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (angstrom)
+C      0.000000000000      0.000000000000      0.00000000000
+O      0.000000000000      0.000000000000      1.13000000000
+K_POINTS (gamma)
