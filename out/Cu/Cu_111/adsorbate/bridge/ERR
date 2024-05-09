@@ -1,0 +1,1806 @@
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F323446FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F155F622CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE8AB6EECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F4B2FB8CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE59F9FECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F97AE721CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC8BF3D3CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FAA31043CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007EFF6C5CFCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC67B830CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F4D3F11FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F143CCCACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5E2606ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCF83EA6CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE25B16ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FDCB851DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7E95027CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7E09FDFCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F72D9867CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F62E89E8CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F1249411CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF795585CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F9B1FBEACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F389E612CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F161A92ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF85D4B2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA533E2CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007EFE445DACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F065EE1ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FEAC959ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F791385CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA524C93CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F6B79F7DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7CED581CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F0CBE41ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F61EA463CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F1990453CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3E779D4CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F71A9E25CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F2C6FA69CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA9C36D5CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FD707681CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F90E3B16CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F68F9034CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FADAE5C5CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F295B2EDCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F888028FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA24BE8DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F53FDC04CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FB13BB22CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3F1C917CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF6E0C82CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F0A85F6BCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F6119409CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBDBAD6CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3A2EBC9CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FAE4E938CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7E9B66ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF0A8D1ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA50F504CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3841080CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FAB4022FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F1EE1CD1CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F793D318CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7CDB469CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCE055BDCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F08C41A4CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8ED6D4ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBFA131ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE4F3A8FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5C8AF4FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5C6480CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FB6D8FD9CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F32CC731CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F19BF65ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F46DA760CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F6D23417CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA8E9241CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F91FCB9DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7C9A816CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8E553ADCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FEED1869CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FD92FE90CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE25D8F8CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC26E5E1CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCAD377ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FB15B6B2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBB60B89CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F61307C2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3947B07CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F82D327ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF30EF68CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F77A05BACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE41E84BCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC2D05FCCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F28E0F1ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F2DC1A37CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5FEF971CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3CBB034CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F265F86CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBB4E4A6CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F403B7B1CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F142CC4ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F580DBA0CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F4A1E0F7CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCEEC454CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF56FA9CCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F660E441CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCA7C619CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007EFE09E21CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F89CF7F9CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE35965DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7640828CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F3347FB5CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F74733C3CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FFB30086CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FEA744F8CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F953585ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F809DEE3CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7671DDBCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FDE7A2D6CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7541D8DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F4BB26FBCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F805C20BCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F915D382CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBFF7731CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA7EE447CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 99, file /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge/CRASH
+Image              PC                Routine            Line        Source             
+pw.x               000000000105B5E5  Unknown               Unknown  Unknown
+pw.x               0000000000F88754  errore_                    76  error_handler.f90
+pw.x               0000000000A7A475  io_files_mp_creat         170  io_files.f90
+pw.x               00000000004A1E89  io_rho_xml_mp_wri          54  io_rho_xml.f90
+pw.x               000000000040E0E2  electrons_scf_           1179  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F9037D08CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
+  warnings.warn('Skipping unhashable information '
+Traceback (most recent call last):
+  File "slab_ads.py", line 65, in <module>
+    etot=slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-7.6993237928851235.pwi > Cu-7.6993237928851235.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbation/bridge with error code 255
