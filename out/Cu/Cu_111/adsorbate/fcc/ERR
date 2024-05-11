@@ -1,28 +1,2 @@
 /home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
   warnings.warn('Skipping unhashable information '
-Traceback (most recent call last):
-  File "slab_ads.py", line 65, in <module>
-    etot=slab_structure.get_potential_energy()
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
-    energy = self._calc.get_potential_energy(self)
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
-    energy = self.get_property('energy', atoms)
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
-    self.calculate(atoms, [name], system_changes)
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 940, in calculate
-    self.read_results()
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/calculators/espresso.py", line 115, in read_results
-    output = io.read(self.label + '.pwo')
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/formats.py", line 736, in read
-    return next(_iread(filename, slice(index, None), format, io,
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/parallel.py", line 275, in new_generator
-    for result in generator(*args, **kwargs):
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/formats.py", line 803, in _iread
-    for dct in io.read(fd, *args, **kwargs):
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/formats.py", line 559, in wrap_read_function
-    for atoms in read(filename, index, **kwargs):
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/espresso.py", line 263, in read_espresso_out
-    magmoms = [
-  File "/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/espresso.py", line 264, in <listcomp>
-    float(mag_line.split()[5]) for mag_line
-ValueError: could not convert string to float: 'magn='

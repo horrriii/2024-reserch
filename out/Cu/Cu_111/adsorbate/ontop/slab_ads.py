@@ -23,14 +23,13 @@ slab_structure=fcc111('Cu',(supercell_number,supercell_number,layer_number),a=bu
 slab_structure.translate([0,0,-slab_structure.cell.cellpar()[2]*0.65])
 constrain_bottom_layer=FixAtoms(indices=[0,1,2,3,4,5,6,7,8])
 slab_structure.set_constraint(constrain_bottom_layer)
-add_adsorbate(slab_structure,ads,2.0,'ontop',offset=1,mol_index=1)
+add_adsorbate(slab_structure,ads,3.0,'ontop',offset=1,mol_index=1)
 print('Made images for 111 surface!')
 structure_trajectory=Trajectory('initial-structure.traj','w')
 structure_trajectory.write(slab_structure)
 
 ecutwfc=650*(eV/Ry)
 kpt_mesh=[8,8,1]
-port=31415
 
 images_to_compute=[slab_structure]
 
@@ -40,7 +39,7 @@ user_prefix='Cu'
 
 for image in images_to_compute:
     traj_to_write_on = Trajectory(user_prefix+'-latcon'+'.traj','w')
-    image[0].magmom=(random.randint(0,200000)/100000)
+    #image[0].magmom=(random.randint(0,200000)/100000)
     prefix=user_prefix+'-'+str(image.cell.cellpar()[0])
     input_parameters['control']['calculation']='relax'
     input_parameters['system']['input_dft']='beef-vdw'
@@ -64,3 +63,4 @@ for image in images_to_compute:
     write('cu_ads.xyz',slab_structure)
     etot=slab_structure.get_potential_energy()
     print('Total energy: %12.8f eV' % etot)
+    traj_to_write_on.write(image)
