@@ -1,2 +1,1 @@
-/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
-  warnings.warn('Skipping unhashable information '
+slurmstepd: error: *** JOB 1990823 ON c19u04n3 CANCELLED AT 2024-05-15T09:43:00 ***
