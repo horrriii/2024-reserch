@@ -11,7 +11,7 @@
    prefix           = 'Cu-3.61'
    max_seconds      = 1210000
    etot_conv_thr    = 7.349864494991328e-07
-   forc_conv_thr    = 7.3498644949913274e-06
+   forc_conv_thr    = 0.0007349864494991328
    disk_io          = 'medium'
    pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
 /
