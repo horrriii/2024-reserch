@@ -22,8 +22,8 @@ kpt_mesh=[12,12,12]
 
 images_to_compute=[bulk_structure]
 
-input_parameters=json.load(open('./../input_parameters.json'))
-pseudos=json.load(open('./../pslibrary.json'))
+input_parameters=json.load(open('./../../input_parameters.json'))
+pseudos=json.load(open('./../../pslibrary.json'))
 user_prefix='Cu'
 
 for image in images_to_compute:
@@ -40,7 +40,7 @@ for image in images_to_compute:
     input_parameters['control']['nstep']=100
     input_parameters['control']['prefix']=prefix
     input_parameters['control']['etot_conv_thr']= 1e-5*(eV/Ry)
-    input_parameters['control']['forc_conv_thr']= 1e-4*(eV/Ry)
+    input_parameters['control']['forc_conv_thr']= 0.01*(eV/Ang)
     input_parameters['control']['restart_mode']='from_scratch'
     input_parameters['electrons']['conv_thr']=1e-10*(eV/Ry)
     input_parameters['electrons']['mixing_beta']=1/3
