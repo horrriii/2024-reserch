@@ -41,12 +41,13 @@ for image in images_to_compute:
     input_parameters['control']['nstep']=100
     input_parameters['control']['prefix']=prefix
     input_parameters['control']['etot_conv_thr']= 1e-5*(eV/Ry)
+    input_parameters['control']['forc_conv_thr']= 1e-4*(eV/Ry)
     input_parameters['control']['restart_mode']='from_scratch'
     input_parameters['electrons']['conv_thr']=1e-10*(eV/Ry)
     input_parameters['electrons']['mixing_beta']=1/3
     input_parameters['ions']['ion_dynamics']='bfgs'
-    write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=True,tprnfor=True)
-    calc = Espresso(label=prefix, pseudopotentials=pseudos,input_data=input_parameters, tstress=True, tprnfor=True, kpts=kpt_mesh)
+    write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=True)
+    calc = Espresso(label=prefix, pseudopotentials=pseudos,input_data=input_parameters, tstress=False, tprnfor=True, kpts=kpt_mesh)
     bulk_structure.calc=calc
     write('cu_fcc.xyz',bulk_structure)
     etot=bulk_structure.get_potential_energy()
