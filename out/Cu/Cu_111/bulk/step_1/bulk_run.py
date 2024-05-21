@@ -40,7 +40,7 @@ for image in images_to_compute:
     input_parameters['control']['nstep']=100
     input_parameters['control']['prefix']=prefix
     input_parameters['control']['etot_conv_thr']= 1e-5*(eV/Ry)
-    input_parameters['control']['forc_conv_thr']= 0.01*(eV/Ry)
+    input_parameters['control']['forc_conv_thr']= 0.01*(Bohr/Ry)
     input_parameters['control']['restart_mode']='from_scratch'
     input_parameters['electrons']['conv_thr']=1e-10*(eV/Ry)
     input_parameters['electrons']['mixing_beta']=1/3
