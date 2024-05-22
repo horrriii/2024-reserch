@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "slab_vib.py", line 68, in <module>
+    vib=Vibrations(image,indices=[-2,-1],nfree=4)
+NameError: name 'Vibrations' is not defined
