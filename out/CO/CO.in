@@ -9,7 +9,7 @@ forc_conv_thr = 1.d-4
 /
 &system
    ibrav   = 1
-   A       = 10.0d0
+   A       = 15.0d0
    nat     = 2
    ntyp    = 2
    ecutwfc = 50

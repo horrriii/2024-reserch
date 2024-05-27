@@ -4,8 +4,6 @@
         "ecutrho": 6500,
         "nosym": true,
         "noinv": true,
-        "occupations": "smearing",
-        "degauss": 0.05,
         "assume_isolated": "none",
         "input_dft": "pbe"
     },
@@ -22,7 +20,7 @@
         "etot_conv_thr": 1e-05,
         "tprnfor": true,
         "tstress": true,
-        "pseudo_dir": "./pseudo"
+        "pseudo_dir": "/home/k0227/k022716/QE/pseudo/"
     },
     "electrons": {
         "electron_maxstep": 9000,

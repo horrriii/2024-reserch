@@ -24,7 +24,7 @@ for i in [650,850,1050,1200]:
     slab_structure.translate([0,0,-slab_structure.cell.cellpar()[2]*0.65])
     constrain_bottom_layer=FixAtoms(indices=[0,1,2,3,4,5,6,7,8])
     slab_structure.set_constraint(constrain_bottom_layer)
-    add_adsorbate(slab_structure,ads,3.0,'hcp',offset=1,mol_index=1)
+    add_adsorbate(slab_structure,ads,1.95,'hcp',offset=1,mol_index=1)
     print('Made images for 111 surface!')
     structure_trajectory=Trajectory('initial-structure.traj','w')
     structure_trajectory.write(slab_structure)
@@ -50,6 +50,9 @@ for i in [650,850,1050,1200]:
         input_parameters['system']['smearing']='marzari-vanderbilt'
         input_parameters['system']['nosym']=False
         input_parameters['system']['noinv']=False
+        input_parameters['system']['assume_isolated']='esm'
+        input_parameters['system']['esm_bc']='bc3'
+        input_parameters['system']['esm_w']=0
         input_parameters['control']['title']=prefix
         input_parameters['control']['nstep']=100
         input_parameters['control']['prefix']=prefix

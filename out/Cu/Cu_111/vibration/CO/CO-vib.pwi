@@ -10,19 +10,18 @@
    outdir           = './tmp/'
    prefix           = 'CO-vib'
    max_seconds      = 1210000
-   etot_conv_thr    = 7.349864494991328e-07
+   etot_conv_thr    = 7.3498644949913274e-06
    forc_conv_thr    = 0.0003889380791481726
-   disk_io          = 'medium'
+   disk_io          = 'nowf'
    pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
 /
 &SYSTEM
    ecutwfc          = 47.774119217443626
    ecutrho          = 477.74119217443626
-   nosym            = .false.
-   noinv            = .false.
+   nosym            = .true.
+   noinv            = .true.
    occupations      = 'smearing'
-   degauss          = 0.007349864494991328
-   smearing         = 'marzari-vanderbilt'
+   degauss          = 0.05
    input_dft        = 'beef-vdw'
    assume_isolated  = 'none'
    ntyp             = 2
@@ -40,7 +39,6 @@
    diago_david_ndim = 2
 /
 &IONS
-   ion_dynamics     = 'bfgs'
 /
 &CELL
 /
@@ -53,11 +51,11 @@ K_POINTS automatic
 1 1 1  0 0 0
 
 CELL_PARAMETERS angstrom
-9.99999982150825 0.00000000000000 0.00000000000000
-0.00000000000000 9.99999982150825 0.00000000000000
-0.00000000000000 0.00000000000000 9.99999982150825
+14.99999999685098 0.00000000000000 0.00000000000000
+0.00000000000000 14.99999999685098 0.00000000000000
+0.00000000000000 0.00000000000000 14.99999999685098
 
 ATOMIC_POSITIONS angstrom
-C 0.0000000000 0.0000000000 -0.0039210860 
-O 0.0000000000 0.0000000000 1.1339210860 
+C 0.0000000000 0.0000000000 -0.0039282872 
+O 0.0000000000 0.0000000000 1.1339282872 
 

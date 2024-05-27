@@ -50,6 +50,9 @@ for i in [650,850,1050,1200]:
         input_parameters['system']['smearing']='marzari-vanderbilt'
         input_parameters['system']['nosym']=False
         input_parameters['system']['noinv']=False
+        input_parameters['system']['assume_isolated']='esm'
+        input_parameters['system']['esm_bc']='bc3'
+        input_parameters['system']['esm_w']=0
         input_parameters['control']['title']=prefix
         input_parameters['control']['nstep']=100
         input_parameters['control']['prefix']=prefix

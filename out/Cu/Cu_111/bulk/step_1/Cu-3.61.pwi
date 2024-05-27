@@ -11,7 +11,7 @@
    prefix           = 'Cu-3.61'
    max_seconds      = 1210000
    etot_conv_thr    = 7.349864494991328e-07
-   forc_conv_thr    = 0.0007349864494991328
+   forc_conv_thr    = 0.0003889380791481725
    disk_io          = 'medium'
    pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
 /
@@ -49,7 +49,7 @@ ATOMIC_SPECIES
 Cu 63.546 Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
 
 K_POINTS automatic
-12 12 12  0 0 0
+24 24 24  0 0 0
 
 CELL_PARAMETERS angstrom
 3.61000000000000 0.00000000000000 0.00000000000000

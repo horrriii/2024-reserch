@@ -1,9 +1,9 @@
 #!/bin/sh
 #SBATCH -J CO
 #SBATCH -p F4cpu
-#SBATCH -N 2
+#SBATCH -N 4
 #SBATCH -n 128
-#SBATCH -c 2
+#SBATCH -c 4
 #SBATCH -o LOG
 #SBATCH -e ERR
 

@@ -18,7 +18,7 @@ n_processors=76
 bulk_structure=bulk('Cu', 'fcc', a , cubic=True)
 
 ecutwfc=650*(eV/Ry)
-kpt_mesh=[12,12,12]
+kpt_mesh=[24,24,24]
 
 images_to_compute=[bulk_structure]
 

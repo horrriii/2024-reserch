@@ -23,7 +23,7 @@ slab_structure=fcc111('Cu',(supercell_number,supercell_number,layer_number),a=bu
 slab_structure.translate([0,0,-slab_structure.cell.cellpar()[2]*0.65])
 constrain_bottom_layer=FixAtoms(indices=[0,1,2,3,4,5,6,7,8])
 slab_structure.set_constraint(constrain_bottom_layer)
-add_adsorbate(slab_structure,ads,3.0,'hcp',offset=1,mol_index=1)
+add_adsorbate(slab_structure,ads,1.95,'hcp',offset=1,mol_index=1)
 print('Made images for 111 surface!')
 structure_trajectory=Trajectory('initial-structure.traj','w')
 structure_trajectory.write(slab_structure)

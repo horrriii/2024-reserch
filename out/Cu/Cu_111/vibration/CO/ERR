@@ -1,4 +1,6 @@
 Traceback (most recent call last):
-  File "slab_vib.py", line 68, in <module>
-    vib=Vibrations(image,indices=[-2,-1],nfree=4)
-NameError: name 'Vibrations' is not defined
+  File "vib_run.py", line 84, in <module>
+    thermo=HarmonicThermo(vib_energies=vib_energies,potentialenergy=image_potential_energy)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/thermochemistry.py", line 75, in __init__
+    raise ValueError('Imaginary vibrational energies are present.')
+ValueError: Imaginary vibrational energies are present.
