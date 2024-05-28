@@ -6,7 +6,7 @@ from ase.units import *
 from ase.optimize import BFGS
 from ase.constraints import UnitCellFilter
 
-for i in [650.850,1050,1200]:
+for i in [650]:
     ecutwfc=i*(eV/Ry)
     kpt_mesh=[1,1,1]
 
@@ -21,7 +21,7 @@ for i in [650.850,1050,1200]:
     for image in images_to_compute:
         #traj_to_write_on = Trajectory(user_prefix+'-latcon'+'.traj','w')
         #image[0].magmom=(random.randint(0,200000)/100000)
-        prefix='espresso'+str(i)
+        prefix='espresso'
         input_parameters['control']['calculation']='relax'
         input_parameters['system']['input_dft']='beef-vdw'
         input_parameters['system']['ecutwfc']=ecutwfc

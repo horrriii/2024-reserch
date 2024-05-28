@@ -17,7 +17,7 @@ n_processors=76
 
 bulk_structure=bulk('Cu', 'fcc', a , cubic=True)
 
-for i in [650,850,1050,1200]:
+for i in [750,950]:
     ecutwfc=i*(eV/Ry)
     kpt_mesh=[24,24,24]
 

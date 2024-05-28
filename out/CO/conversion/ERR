@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "ase-qe.py", line 17, in <module>
+    input_parameters=json.load(open('./input_parameters.json'))
+FileNotFoundError: [Errno 2] No such file or directory: './input_parameters.json'

@@ -1,8 +1,3 @@
-/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
-  warnings.warn('Skipping unhashable information '
-Traceback (most recent call last):
-  File "slab_ads.py", line 19, in <module>
-    ads=read('espresso.pwo', index=-1)
-  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 736, in read
-    return next(_iread(filename, slice(index, None), format, io,
-StopIteration
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** JOB 2013764 ON c15u01n1 CANCELLED AT 2024-05-27T23:51:25 ***
+slurmstepd: error: *** STEP 2013764.0 ON c15u01n1 CANCELLED AT 2024-05-27T23:51:25 ***

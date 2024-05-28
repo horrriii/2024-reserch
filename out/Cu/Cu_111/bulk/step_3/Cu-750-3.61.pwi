@@ -1,0 +1,64 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   title            = 'Cu-750-3.61'
+   verbosity        = 'high'
+   restart_mode     = 'from_scratch'
+   wf_collect       = .true.
+   nstep            = 100
+   tstress          = .false.
+   tprnfor          = .true.
+   outdir           = './tmp/'
+   prefix           = 'Cu-750-3.61'
+   max_seconds      = 1210000
+   etot_conv_thr    = 7.349864494991328e-07
+   forc_conv_thr    = 0.0003889380791481726
+   disk_io          = 'medium'
+   pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
+/
+&SYSTEM
+   ecutwfc          = 55.123983712434956
+   ecutrho          = 551.2398371243496
+   nosym            = .false.
+   noinv            = .false.
+   occupations      = 'smearing'
+   degauss          = 0.007349864494991328
+   smearing         = 'marzari-vanderbilt'
+   input_dft        = 'beef-vdw'
+   assume_isolated  = 'none'
+   ntyp             = 1
+   nat              = 4
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 9000
+   scf_must_converge = .true.
+   conv_thr         = 7.349864494991328e-12
+   mixing_mode      = 'plain'
+   mixing_beta      = 0.3333333333333333
+   mixing_ndim      = 12
+   diagonalization  = 'david'
+   diago_david_ndim = 2
+/
+&IONS
+   ion_dynamics     = 'bfgs'
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Cu 63.546 Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+24 24 24  0 0 0
+
+CELL_PARAMETERS angstrom
+3.61000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 3.61000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 3.61000000000000
+
+ATOMIC_POSITIONS angstrom
+Cu 0.0000000000 0.0000000000 0.0000000000 
+Cu 0.0000000000 1.8050000000 1.8050000000 
+Cu 1.8050000000 0.0000000000 1.8050000000 
+Cu 1.8050000000 1.8050000000 0.0000000000 
+
