@@ -14,7 +14,7 @@ from ase.constraints import FixAtoms
 
 n_processors=76
 
-for i in [750,950]:
+for i in [950]:
     bulk=read('Cu-'+str(i)+'-3.61.pwo', index=-1)
 
     supercell_number=3

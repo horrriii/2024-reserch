@@ -1,8 +1,8 @@
 #!/bin/sh
 #SBATCH -J CO
-#SBATCH -p F4cpu
+#SBATCH -p i8cpu
 #SBATCH -N 4
-#SBATCH -n 128
+#SBATCH -n 64
 #SBATCH -c 4
 #SBATCH -o LOG
 #SBATCH -e ERR

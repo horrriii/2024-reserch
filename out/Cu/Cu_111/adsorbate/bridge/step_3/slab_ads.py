@@ -14,7 +14,7 @@ from ase.constraints import FixAtoms
 
 n_processors=76
 
-for i in [850,1050,1200]:
+for i in [1200]:
     bulk=read('Cu-'+str(i)+'-3.61.pwo', index=-1)
     ads=read('espresso.pwo', index=-1)
 

@@ -6,7 +6,7 @@ from ase.units import *
 from ase.optimize import BFGS
 from ase.constraints import UnitCellFilter
 
-for i in [650,850,1050,1200]:
+for i in [750,950]:
     ecutwfc=i*(eV/Ry)
     kpt_mesh=[1,1,1]
 
@@ -16,7 +16,7 @@ for i in [650,850,1050,1200]:
 
     input_parameters=json.load(open('./../input_parameters.json'))
     pseudos=json.load(open('./../pslibrary.json'))
-    user_prefix='CO'
+    user_prefix='Co'
 
     for image in images_to_compute:
         #traj_to_write_on = Trajectory(user_prefix+'-latcon'+'.traj','w')

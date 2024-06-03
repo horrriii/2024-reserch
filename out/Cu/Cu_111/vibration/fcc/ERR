@@ -1,6 +1,0 @@
-/home/k0227/k022716/ASE/ase_oneapi_2023.0.0/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
-  warnings.warn('Skipping unhashable information '
-Traceback (most recent call last):
-  File "slab_vib.py", line 75, in <module>
-    thermo=HarmonicThermo(vib_energies=vib_energies,potentialenergy=image_potential_energy)
-NameError: name 'image_potential_energy' is not defined

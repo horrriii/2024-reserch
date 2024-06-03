@@ -17,4 +17,4 @@ module load oneapi_mpi/2023.0.0
 export ASE_ESPRESSO_COMMAND="mpirun ${HOME}/QE/src/qe-7.2/bin/pw.x -in PREFIX.pwi > PREFIX.pwo"
 export ESPRESSO_PSEUDO="/home/k0227/k022716/QE/pseudo"
  
-python3 slab_vib.py
+python3 vib_run.py

@@ -1,24 +1,99 @@
-Abort(1) on node 102 (rank 102 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 102
-Abort(1) on node 94 (rank 94 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 94
-Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
-Abort(1) on node 95 (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
-Abort(1) on node 127 (rank 127 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 127
-Abort(1) on node 74 (rank 74 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 74
-Abort(1) on node 101 (rank 101 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101
-Abort(1) on node 81 (rank 81 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 81
-Abort(1) on node 107 (rank 107 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107
-Abort(1) on node 84 (rank 84 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 84
-Abort(1) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
-Abort(1) on node 85 (rank 85 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 85
-Abort(1) on node 119 (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
-Abort(1) on node 87 (rank 87 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 87
-Abort(1) on node 123 (rank 123 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123
-Abort(1) on node 88 (rank 88 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 88
-Abort(1) on node 126 (rank 126 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 126
-Abort(1) on node 91 (rank 91 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91
-Abort(1) on node 106 (rank 106 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 106
-Abort(1) on node 114 (rank 114 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 114
-Abort(1) on node 78 (rank 78 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 78
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
 /home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
   warnings.warn('Skipping unhashable information '
 Traceback (most recent call last):
@@ -32,4 +107,4 @@ Traceback (most recent call last):
     self.calculate(atoms, [name], system_changes)
   File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
     raise CalculationFailed(msg)
-ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-850-7.741419430760426.pwi > Cu-850-7.741419430760426.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/bridge/step_3 with error code 1
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-1050-7.7402775600819345.pwi > Cu-1050-7.7402775600819345.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/bridge/step_3 with error code 141

@@ -1,0 +1,19 @@
+Abort(1) on node 3 (rank 3 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+Abort(1) on node 53 (rank 53 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 53
+Abort(1) on node 58 (rank 58 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 58
+Abort(1) on node 60 (rank 60 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 60
+Abort(1) on node 61 (rank 61 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 61
+Abort(1) on node 62 (rank 62 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 62
+Abort(1) on node 63 (rank 63 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63
+Traceback (most recent call last):
+  File "ase-qe.py", line 46, in <module>
+    etot=cu.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in espresso650.pwi > espresso650.pwo" failed in /home/k0227/k022716/QE/out/Cu/Atom with error code 1

@@ -75,7 +75,6 @@ for image in images_to_compute:
     write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=True)
     espresso = Espresso(label=prefix, input_data=input_parameters, pseudopotentials=pseudos, kpts=kpt_mesh,tstress=False,tprnfor=True)
     image.calc=espresso
-    wirte('cu_ads.xyz',image)
     image_potential_energy=image.get_potential_energy()
     traj_to_write_on.write(image)
     vib=Vibrations(image,indices=[-2,-1],nfree=2)
