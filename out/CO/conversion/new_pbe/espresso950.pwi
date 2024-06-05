@@ -1,0 +1,60 @@
+&CONTROL
+   calculation      = 'relax'
+   title            = 'espresso950'
+   verbosity        = 'high'
+   restart_mode     = 'from_scratch'
+   wf_collect       = .true.
+   nstep            = 100
+   tstress          = .false.
+   tprnfor          = .true.
+   outdir           = './tmp/'
+   prefix           = 'espresso950'
+   max_seconds      = 1210000
+   etot_conv_thr    = 7.349864494991328e-07
+   forc_conv_thr    = 0.0003889380791481726
+   disk_io          = 'medium'
+   pseudo_dir       = '/home/k0227/k022716/QE/pseudo/new_pbe/'
+/
+&SYSTEM
+   ecutwfc          = 69.82371270241761
+   ecutrho          = 698.2371270241761
+   nosym            = .false.
+   noinv            = .false.
+   input_dft        = 'beef-vdw'
+   assume_isolated  = 'none'
+   ntyp             = 2
+   nat              = 2
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 9000
+   scf_must_converge = .true.
+   conv_thr         = 7.349864494991328e-12
+   mixing_mode      = 'plain'
+   mixing_beta      = 0.3333333333333333
+   mixing_ndim      = 12
+   diagonalization  = 'david'
+   diago_david_ndim = 2
+/
+&IONS
+   ion_dynamics     = 'bfgs'
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+C 12.011 C.pbe-n-kjpaw_psl.1.0.0.UPF
+O 15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+1 1 1  0 0 0
+
+CELL_PARAMETERS angstrom
+15.00000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 15.00000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 15.00000000000000
+
+ATOMIC_POSITIONS angstrom
+C 0.0000000000 0.0000000000 0.0000000000 
+O 0.0000000000 0.0000000000 1.1300000000 
+

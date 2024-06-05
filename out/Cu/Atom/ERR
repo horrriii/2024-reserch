@@ -1,12 +1,157 @@
-Abort(1) on node 3 (rank 3 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
-Abort(1) on node 53 (rank 53 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 53
-Abort(1) on node 58 (rank 58 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 58
-Abort(1) on node 60 (rank 60 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 60
-Abort(1) on node 61 (rank 61 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 61
-Abort(1) on node 62 (rank 62 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 62
-Abort(1) on node 63 (rank 63 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63
+[c15u12n1:467339:0:467339] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467340:0:467340] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467336:0:467336] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467335:0:467335] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467337:0:467337] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467338:0:467338] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467341:0:467341] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[c15u12n1:467342:0:467342] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid: 467340) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+==== backtrace (tid: 467342) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007FFAB8D37CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FFAB81D2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+==== backtrace (tid: 467339) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F09C7493CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F09C692ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007FED45B70CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FED4500BCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+==== backtrace (tid: 467336) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+==== backtrace (tid: 467337) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F80F45D9CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F80F3A74CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F7E4F27ECE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F7E4E719CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+==== backtrace (tid: 467338) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+==== backtrace (tid: 467341) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+==== backtrace (tid: 467335) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x00000000005c0cd1 setup_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/setup.f90:289
+ 2 0x000000000058ede6 run_pwscf_()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/run_pwscf.f90:140
+ 3 0x00000000004088f3 MAIN__()  /home/k0227/k022716/QE/src/qe-7.2/PW/src/pwscf.f90:85
+ 4 0x000000000040875d main()  ???:0
+ 5 0x000000000003acf3 __libc_start_main()  ???:0
+ 6 0x000000000040867e _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F96E43B9CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F96E3854CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F324A333CE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F32497CECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007F2BBC28DCE0  Unknown               Unknown  Unknown
+pw.x               00000000005C0CD1  setup_                    289  setup.f90
+pw.x               000000000058EDE6  run_pwscf_                140  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F2BBB728CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
 Traceback (most recent call last):
-  File "ase-qe.py", line 46, in <module>
+  File "ase-qe.py", line 55, in <module>
     etot=cu.get_potential_energy()
   File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
     energy = self._calc.get_potential_energy(self)
@@ -16,4 +161,4 @@ Traceback (most recent call last):
     self.calculate(atoms, [name], system_changes)
   File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
     raise CalculationFailed(msg)
-ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in espresso650.pwi > espresso650.pwo" failed in /home/k0227/k022716/QE/out/Cu/Atom with error code 1
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in espresso650.pwi > espresso650.pwo" failed in /home/k0227/k022716/QE/out/Cu/Atom with error code 174

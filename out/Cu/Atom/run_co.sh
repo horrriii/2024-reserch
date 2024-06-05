@@ -1,9 +1,9 @@
 #!/bin/sh
 #SBATCH -J Cu_atom
 #SBATCH -p i8cpu
-#SBATCH -N 2
-#SBATCH -n 64
-#SBATCH -c 2
+#SBATCH -N 1
+#SBATCH -n 8
+#SBATCH -c 1
 #SBATCH -o LOG
 #SBATCH -e ERR
 

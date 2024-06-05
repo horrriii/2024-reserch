@@ -1,5 +1,5 @@
 &CONTROL
-   calculation      = 'relax'
+   calculation      = 'scf'
    title            = 'espresso650'
    verbosity        = 'high'
    restart_mode     = 'from_scratch'
@@ -16,16 +16,16 @@
    pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
 /
 &SYSTEM
+   nbnd             = 12
    ecutwfc          = 47.774119217443626
    ecutrho          = 477.74119217443626
    nosym            = .false.
    noinv            = .false.
-   occupations      = 'smearing'
-   degauss          = 0.007349864494991328
-   smearing         = 'marzari-vanderbilt'
+   occupations      = 'from_input'
    nspin            = 2
    input_dft        = 'beef-vdw'
    assume_isolated  = 'none'
+   !one_atom_occupations = .true.
    starting_magnetization(1) = 0.5
    ntyp             = 1
    nat              = 1
@@ -61,3 +61,6 @@ CELL_PARAMETERS angstrom
 ATOMIC_POSITIONS angstrom
 Cu  0.0000000000 0.0000000000 0.0000000000
 
+OCCUPATIONS
+1.0 1.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0
+1.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
