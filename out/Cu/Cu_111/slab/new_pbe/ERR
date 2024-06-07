@@ -1,1 +1,2 @@
-slurmstepd: error: *** JOB 2021628 ON c23u01n1 CANCELLED AT 2024-06-04T21:34:25 DUE TO TIME LIMIT ***
+/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
+  warnings.warn('Skipping unhashable information '

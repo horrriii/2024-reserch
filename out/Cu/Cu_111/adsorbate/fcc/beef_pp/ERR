@@ -1,0 +1,18 @@
+Abort(397) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 397) - process 0
+Abort(397) on node 4 (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 397) - process 4
+Abort(397) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 397) - process 8
+Abort(397) on node 12 (rank 12 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 397) - process 12
+/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/extxyz.py:302: UserWarning: Skipping unhashable information adsorbate_info
+  warnings.warn('Skipping unhashable information '
+Traceback (most recent call last):
+  File "slab_ads.py", line 69, in <module>
+    etot=slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-650-7.700530414745783.pwi > Cu-650-7.700530414745783.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/fcc/beef_pp with error code 141
