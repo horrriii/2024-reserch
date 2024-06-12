@@ -1,0 +1,43 @@
+started at date
+Abort(1) on node 83 (rank 83 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 83
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** STEP 2032830.0 ON c20u17n1 CANCELLED AT 2024-06-11T14:57:10 ***
+Abort(1) on node 84 (rank 84 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 84
+Abort(1) on node 121 (rank 121 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 121
+Abort(1) on node 86 (rank 86 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 86
+Abort(1) on node 123 (rank 123 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123
+Abort(1) on node 94 (rank 94 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 94
+Abort(1) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+Abort(1) on node 124 (rank 124 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 124
+Abort(1) on node 126 (rank 126 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 126
+Abort(1) on node 127 (rank 127 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 127
+Abort(1) on node 112 (rank 112 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 112
+Abort(1) on node 113 (rank 113 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 113
+Abort(1) on node 116 (rank 116 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116
+Abort(1) on node 117 (rank 117 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 117
+Abort(1) on node 118 (rank 118 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 118
+Abort(1) on node 119 (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
+Abort(1) on node 120 (rank 120 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 120
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+Abort(1) on node 125 (rank 125 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 125
+srun: error: c20u17n4: tasks 16-31: Killed
+srun: launch/slurm: _step_signal: Terminating StepId=2032830.0
+srun: error: c22u15n2: tasks 80-95: Killed
+srun: error: c22u18n2: tasks 112-127: Killed
+srun: error: c21u01n1: tasks 32-47: Killed
+srun: error: c21u01n2: tasks 48-63: Killed
+srun: error: c20u17n1: tasks 0-15: Killed
+srun: error: c21u03n2: tasks 64-79: Killed
+srun: error: c22u18n1: tasks 96-111: Killed
+Traceback (most recent call last):
+  File "slab_ads.py", line 97, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-650-7.700530414745783.pwi > Cu-650-7.700530414745783.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/bridge/beef_pp with error code 137

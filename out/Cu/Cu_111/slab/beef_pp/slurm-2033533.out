@@ -1,0 +1,215 @@
+started at date
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+srun: error: c20u06n1: tasks 32-47: Exited with exit code 3
+srun: launch/slurm: _step_signal: Terminating StepId=2033533.2
+srun: error: c20u07n3: tasks 48-63: Exited with exit code 3
+srun: error: c22u01n1: tasks 112-127: Exited with exit code 3
+srun: error: c20u03n4: tasks 16-31: Exited with exit code 3
+slurmstepd: error: *** STEP 2033533.2 ON c20u03n2 CANCELLED AT 2024-06-12T05:22:34 ***
+srun: error: c20u10n3: tasks 64-79: Exited with exit code 3
+srun: error: c20u10n4: tasks 80-95: Exited with exit code 3
+srun: error: c21u17n4: tasks 96-111: Exited with exit code 3
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014DF49571CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014DF069D8CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E5A2ABACE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014E55FF21CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000153472032CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000015342F499CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001537E5C29CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  00001537A3090CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014CC62569CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014CC1F9D0CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014EA04734CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014E9C1B9BCC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000152EB8EB0CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  0000152E76317CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001538336BBCE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  00001537F0B22CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014B279FF7CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014B23745ECC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001518E15B8CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000015189EA1FCC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014B7316F2CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014B6EEB59CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001552DB755CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  0000155298BBCCC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014EFBAD42CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  000014EF781A9CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001483E4206CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  00001483A166DCC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000145CBEF7ACE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  0000145C7C3E1CC8  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000149409174CE0  Unknown               Unknown  Unknown
+libverbs-1.1-fi.s  00001493C65DBCC8  _fini                 Unknown  Unknown
+srun: error: c20u03n2: tasks 0-15: Exited with exit code 1
+Traceback (most recent call last):
+  File "slab_run.py", line 94, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-1200-7.750918200505966.pwi > Cu-1200-7.750918200505966.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/slab/beef_pp with error code 3

@@ -1,7 +1,7 @@
 import json
 import numpy as np
 
-from ase.io import read, write
+from ase import io
 from ase.calculators.espresso import Espresso
 from ase.units import *
 from ase.optimize import BFGS
@@ -11,7 +11,7 @@ for i in [650,850,1050,1200]:
     ecutwfc=i*(eV/Ry)
     kpt_mesh=[1,1,1]
 
-    cu=read('cu.in',format='espresso-in')
+    cu=io.read('cu.in',format='espresso-in')
 
     images_to_compute=[cu]
 
@@ -45,12 +45,12 @@ for i in [650,850,1050,1200]:
         input_parameters['electrons']['conv_thr']=1e-10*(eV/Ry)
         input_parameters['electrons']['mixing_beta']=1/3
         input_parameters['ions']['ion_dynamics']='bfgs'
-        write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=True)
+        io.write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=False)
         f=open(prefix+'.pwi', mode='a',newline='\n')
-        f.write('OCCUPATIONS')
+        f.write('OCCUPATIONS'+'\n')
         for row in occupations:
-            f.write('\n'+" ".join(map(str,row)))
-        calc = Espresso(label=prefix, pseudopotentials=pseudos,input_data=input_parameters, tstress=False, tprnfor=True, kpts=kpt_mesh)
+            f.write(" ".join(map(str,row))+'\n')
+        calc = Espresso(label=prefix, pseudopotentials=pseudos,input_data=input_parameters, tstress=False, tprnfor=False, kpts=kpt_mesh)
         cu.calc=calc
         etot=cu.get_potential_energy()
         print('Total energy: %12.8f eV' % etot)

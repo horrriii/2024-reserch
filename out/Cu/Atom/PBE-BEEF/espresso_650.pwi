@@ -1,0 +1,57 @@
+&CONTROL
+   calculation      = 'scf'
+   title            = 'espresso_650'
+   tstress          = .false.
+   tprnfor          = .false.
+   outdir           = 'tmp'
+   prefix           = 'espresso_650'
+   etot_conv_thr    = 7.349864494991328e-07
+   forc_conv_thr    = 0.0003889380791481726
+   pseudo_dir       = '/home/k0227/k022716/QE/pseudo/'
+/
+&SYSTEM
+   nbnd             = 12
+   ecutwfc          = 47.774119217443626
+   ecutrho          = 477.74119217443626
+   nosym            = .false.
+   noinv            = .false.
+   occupations      = 'from_input'
+   nspin            = 2
+   input_dft        = 'beef-vdw'
+   !one_atom_occupations = .true.
+   starting_magnetization(1) = 0.5
+   ntyp             = 1
+   nat              = 1
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 9000
+   scf_must_converge = .true.
+   conv_thr         = 7.349864494991328e-12
+   mixing_mode      = 'plain'
+   mixing_beta      = 0.3333333333333333
+   mixing_ndim      = 12
+   diagonalization  = 'david'
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Cu  63.546 Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+1 1 1  0 0 0
+
+CELL_PARAMETERS angstrom
+15.00000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 15.00000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 15.00000000000000
+
+ATOMIC_POSITIONS angstrom
+Cu  0.0000000000 0.0000000000 0.0000000000
+
+OCCUPATIONS
+1.0 1.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0
+1.0 1.0 1.0 1.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0

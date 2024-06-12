@@ -2,17 +2,14 @@
    calculation      = 'relax'
    title            = 'Cu-650-7.700530414745783'
    verbosity        = 'high'
-   restart_mode     = 'from_scratch'
-   wf_collect       = .true.
-   nstep            = 100
+   restart_mode     = 'restart'
    tstress          = .false.
    tprnfor          = .true.
-   outdir           = './tmp/'
+   outdir           = 'tmp'
    prefix           = 'Cu-650-7.700530414745783'
-   max_seconds      = 1210000
+   max_seconds      = 86000
    etot_conv_thr    = 7.349864494991328e-07
    forc_conv_thr    = 0.0003889380791481726
-   disk_io          = 'medium'
    pseudo_dir       = '/home/k0227/k022716/QE/pseudo/beef/'
 /
 &SYSTEM
@@ -20,6 +17,7 @@
    ecutrho          = 477.74119217443626
    nosym            = .false.
    noinv            = .false.
+   occupations      = 'smearing'
    degauss          = 0.007349864494991328
    smearing         = 'marzari-vanderbilt'
    input_dft        = 'beef-vdw'
@@ -34,14 +32,12 @@
    electron_maxstep = 9000
    scf_must_converge = .true.
    conv_thr         = 7.349864494991328e-12
-   mixing_mode      = 'plain'
+   mixing_mode      = 'local-TF'
    mixing_beta      = 0.3333333333333333
    mixing_ndim      = 12
-   diagonalization  = 'david'
-   diago_david_ndim = 2
+   diagonalization  = 'cg'
 /
 &IONS
-   ion_dynamics     = 'bfgs'
 /
 &CELL
 /

@@ -3,13 +3,14 @@
 #SBATCH -p F16cpu
 #SBATCH -N 8
 #SBATCH -n 128
-#SBATCH -c 8
-#SBATCH -o LOG
-#SBATCH -e ERR
+#SBATCH -c 4
 
+export FI_PROVIDER=psm3
+ulimit -s unlimited
 #
 echo started at 'date'
 #
+module purge
 module load oneapi_compiler/2023.0.0
 module load oneapi_mkl/2023.0.0
 module load oneapi_mpi/2023.0.0
