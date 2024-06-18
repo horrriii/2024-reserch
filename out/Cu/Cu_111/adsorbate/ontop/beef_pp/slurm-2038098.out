@@ -1,0 +1,3 @@
+========= Job started  at Sat Jun 15 16:34:49 JST 2024 ==========
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** JOB 2038098 ON c23u01n1 CANCELLED AT 2024-06-16T08:50:53 ***

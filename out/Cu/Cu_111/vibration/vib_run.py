@@ -90,4 +90,4 @@ for image in images_to_compute:
     S=thermo.get_entropy(temperature=T_ambient)
     A=thermo.get_helmholtz_energy(temperature=T_ambient)
     with open('helmholtz','w') as helmholtz_file:
-           helmholtz_file.write(str(A))
+        helmholtz_file.write(str(A))

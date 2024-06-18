@@ -1,0 +1,141 @@
+started at date
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+Traceback (most recent call last):
+  File "slab_ads.py", line 97, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "mpirun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-850-7.746788121318915.pwi > Cu-850-7.746788121318915.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/hcp/beef_pp with error code 255

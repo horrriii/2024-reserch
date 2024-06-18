@@ -1,0 +1,291 @@
+started at date
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+srun: error: c22u18n2: tasks 72-79: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=2038100.0
+srun: error: c21u18n3: tasks 8-15: Exited with exit code 255
+srun: error: c22u04n3: tasks 56-63: Exited with exit code 255
+srun: error: c22u04n4: tasks 64-71: Exited with exit code 255
+srun: error: c21u18n4: tasks 16-23: Exited with exit code 255
+slurmstepd: error: *** STEP 2038100.0 ON c21u18n2 CANCELLED AT 2024-06-16T16:28:28 ***
+srun: error: c23u07n2: tasks 96-103: Exited with exit code 255
+srun: error: c22u03n3: tasks 24-31: Exited with exit code 255
+srun: error: c22u04n1: tasks 40-47: Exited with exit code 255
+srun: error: c22u03n4: tasks 32-39: Exited with exit code 255
+srun: error: c23u07n1: tasks 88-95: Exited with exit code 255
+srun: error: c23u08n1: tasks 120-127: Exited with exit code 255
+srun: error: c22u18n3: tasks 80-87: Exited with exit code 255
+srun: error: c23u07n4: tasks 112-119: Exited with exit code 255
+srun: error: c22u04n2: tasks 48-55: Exited with exit code 255
+srun: error: c23u07n3: tasks 104-111: Exited with exit code 255
+255
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000148ECBBE3CE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000148ECBBDF44A  pthread_cond_wait     Unknown  Unknown
+libiomp5.so        0000148ECB5710B2  Unknown               Unknown  Unknown
+libiomp5.so        0000148ECB4837E9  Unknown               Unknown  Unknown
+libiomp5.so        0000148ECB486646  Unknown               Unknown  Unknown
+libiomp5.so        0000148ECB48F1CB  Unknown               Unknown  Unknown
+libiomp5.so        0000148ECB4D6154  Unknown               Unknown  Unknown
+libiomp5.so        0000148ECB569DC1  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000148ECBBD91CF  Unknown               Unknown  Unknown
+libc-2.28.so       0000148ECB07DDD3  clone                 Unknown  Unknown
+srun: error: c21u18n2: task 0: Exited with exit code 1
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014B570039CE0  Unknown               Unknown  Unknown
+ld-2.28.so         000014B57B8073F2  Unknown               Unknown  Unknown
+ld-2.28.so         000014B57B807F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014B57B80C574  Unknown               Unknown  Unknown
+ld-2.28.so         000014B57B7F9C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   000014B56EE611B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   000014B570C15AAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B570851427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B570970EBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000014B572057C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014B56F4D4CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015227291FCE0  Unknown               Unknown  Unknown
+ld-2.28.so         000015227E0ED3F2  Unknown               Unknown  Unknown
+ld-2.28.so         000015227E0EDF91  Unknown               Unknown  Unknown
+ld-2.28.so         000015227E0F2574  Unknown               Unknown  Unknown
+ld-2.28.so         000015227E0DFC6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   00001522717471B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   00001522734FBAAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000152273137427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000152273256EBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000015227493DC1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       0000152271DBACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E6348A4CE0  Unknown               Unknown  Unknown
+ld-2.28.so         000014E6400723F2  Unknown               Unknown  Unknown
+ld-2.28.so         000014E640072F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014E640077574  Unknown               Unknown  Unknown
+ld-2.28.so         000014E640064C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   000014E6336CC1B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   000014E635480AAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014E6350BC427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014E6351DBEBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000014E6368C2C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014E633D3FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014D06D629CE0  Unknown               Unknown  Unknown
+ld-2.28.so         000014D078DF73F2  Unknown               Unknown  Unknown
+ld-2.28.so         000014D078DF7F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014D078DFC574  Unknown               Unknown  Unknown
+ld-2.28.so         000014D078DE9C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   000014D06C4511B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   000014D06E205AAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D06DE41427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D06DF60EBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000014D06F647C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014D06CAC4CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000147FFC837CE0  Unknown               Unknown  Unknown
+ld-2.28.so         00001480080053F2  Unknown               Unknown  Unknown
+ld-2.28.so         0000148008005F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014800800A574  Unknown               Unknown  Unknown
+ld-2.28.so         0000148007FF7C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   0000147FFB65F1B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   0000147FFD413AAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147FFD04F427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147FFD16EEBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  0000147FFE855C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       0000147FFBCD2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014D51E9A4CE0  Unknown               Unknown  Unknown
+ld-2.28.so         000014D52A1723F2  Unknown               Unknown  Unknown
+ld-2.28.so         000014D52A172F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014D52A177574  Unknown               Unknown  Unknown
+ld-2.28.so         000014D52A164C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   000014D51D7CC1B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   000014D51F580AAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D51F1BC427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D51F2DBEBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000014D5209C2C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014D51DE3FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E0026D3CE0  Unknown               Unknown  Unknown
+ld-2.28.so         000014E00DEA13F2  Unknown               Unknown  Unknown
+ld-2.28.so         000014E00DEA1F91  Unknown               Unknown  Unknown
+ld-2.28.so         000014E00DEA6574  Unknown               Unknown  Unknown
+ld-2.28.so         000014E00DE93C6E  Unknown               Unknown  Unknown
+libpmi2.so.0.0.0   000014E0014FB1B0  PMI2_Finalize         Unknown  Unknown
+libmpi.so.12.0.0   000014E0032AFAAD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014E002EEB427  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014E00300AEBB  PMPI_Finalize         Unknown  Unknown
+libmpifort.so.12.  000014E0046F1C1A  mpi_finalize_         Unknown  Unknown
+pw.x               0000000000A914C2  mp_world_mp_mp_wo         129  mp_world.f90
+pw.x               00000000005C78BC  stop_run_                  54  stop_run.f90
+pw.x               0000000000408940  MAIN__                     98  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014E001B6ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+srun: error: c21u18n2: tasks 1-7: Exited with exit code 1
+Traceback (most recent call last):
+  File "slab_ads.py", line 97, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-850-7.746788121318915.pwi > Cu-850-7.746788121318915.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/bridge/beef_pp with error code 255

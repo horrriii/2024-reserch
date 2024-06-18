@@ -1,0 +1,7 @@
+started at date
+Traceback (most recent call last):
+  File "vib_run.py", line 95, in <module>
+    thermo = HarmonicThermo(vib_energies=vib_energies, potentialenergy=potentialenergy)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/thermochemistry.py", line 75, in __init__
+    raise ValueError('Imaginary vibrational energies are present.')
+ValueError: Imaginary vibrational energies are present.

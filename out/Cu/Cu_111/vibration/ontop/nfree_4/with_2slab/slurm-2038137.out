@@ -1,0 +1,683 @@
+started at date
+forrtl: error (78): process killed (SIGTERM)
+
+slurmstepd: error: *** JOB 2038137 ON c20u12n1 CANCELLED AT 2024-06-18T07:50:04 DUE TO TIME LIMIT ***
+Stack trace terminated abnormally.
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014FA01A05CE0  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014F9BE21FABA  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014F9BE21A28F  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014F9BE1EAF2C  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014F9BE19970B  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA023B0062  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA02149DBF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA021ACB99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA0218860A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA02290DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FA0214AA8C  MPI_Alltoall          Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+
+Stack trace terminated abnormally.
+[c23u16n1:57886:0:57886] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x6a)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+libmpifort.so.12.  000014FA03A19C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+libc-2.28.so       000014FA00EA0CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000145CC6F37CE0  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC78DFFDC  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC767BDBF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC76DEB99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC76BA60A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC77C2DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145CC767CA8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  0000145CC8F4BC7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       0000145CC63D2CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001494CBA45CE0  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC3EE2F2  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC189DBF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC1ECB99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC1C860A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC2D0DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001494CC18AA8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  00001494CDA59C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00001494CAEE0CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001546D7FE5CE0  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D88023CA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D8D9FD21  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D8996DEA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D8729E05  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D878CB99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D876860A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D8870DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001546D872AA8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  00001546D9FF9C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+[c21u01n1:60783:0:60842] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n4:45672:0:45727] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001472A6029CE0  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00001546D7480CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+[c21u08n4:46205:0:46259] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x90bb240)
+/home/k0227/k022716/QE/src/qe-7.2/bin/pw.x: symbol lookup error: /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x: undefined symbol: __vsprintf_chk, version GLIBC_2.3.4
+[c21u07n2:44784:0:44843] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2939ae482200)
+[c23u11n4:55967:0:56030] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29a35e762200)
+[c21u07n4:45673:0:45733] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29f31fbb6200)
+[c23u13n1:55194:0:55251] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1)
+[c23u13n2:53512:0:53569] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c23u16n2:58494:0:58553] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2a8f63a27c00)
+[c23u16n1:57892:0:57952] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001519C4BE2CE0  Unknown               Unknown  Unknown
+libpsm3-fi.so      0000151981364F02  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C5836EAE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C53FF361  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C599CD21  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C5593DEA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C5326E05  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C5389B99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C536560A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C546DDB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001519C5327A8C  MPI_Alltoall          Unknown  Unknown
+[c21u08n4:46203:0:46262] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x767f240)
+[c23u11n3:55193:0:55253] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n2:44785:0:44785] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x28cd44823c00)
+[c23u11n4:55969:0:56034] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x292cd7b66200)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c23u13n1:55195:0:55253] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c23u13n2:53513:0:53574] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29cb5e8ca200)
+[c23u16n2:58492:0:58550] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c23u16n1:57890:0:57948] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29c57a356200)
+libmpifort.so.12.  00001519C6BF6C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+[c21u08n4:46204:0:46264] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x8dc1240)
+[c23u11n3:55194:0:55251] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n2:44782:0:44841] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2aa8b30da200)
+[c23u11n4:55974:0:56028] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c21u07n4:45671:0:45731] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x28c54e696200)
+[c23u13n2:53511:0:53572] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29214edfe200)
+[c23u16n2:58489:0:58551] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2a2b8043e200)
+libc-2.28.so       00001519C407DCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+[c21u08n4:46206:0:46263] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7753240)
+*** stack smashing detected ***: <unknown> terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n2:44781:0:44836] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c23u11n4:55970:0:56033] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c21u07n4:45667:0:45732] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29f3043c2200)
+[c23u13n2:53510:0:53570] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29195ffae200)
+[c23u16n2:58493:0:58547] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014AA3F84FCE0  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC071DE8  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC05A1EC  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC07387A  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC072B23  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC028648  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FC03671F  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FBFD2342  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014A9FBFD1F4B  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA404A3EAE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA4006C361  Unknown               Unknown  Unknown
+[c21u01n1:60786:0:60840] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x83a3bc0)
+[c21u08n4:46200:0:46266] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7cf7240)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n2:44778:0:44837] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2a98b4f16200)
+[c23u11n4:55972:0:56031] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29db29ada200)
+slurmstepd: error: *** STEP 2038137.34 ON c20u12n1 CANCELLED AT 2024-06-18T07:50:04 DUE TO TIME LIMIT ***
+[c21u07n4:45668:0:45668] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+[c23u13n2:53508:0:53568] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2a80da4c6200)
+[c23u16n2:58487:0:58549] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+libmpi.so.12.0.0   000014AA40609D21  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA40200DEA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA3FF93E05  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA3FFF6B99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA3FFD260A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA400DADB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AA3FF94A8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  000014AA41863C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n2:44780:0:44840] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x28eebf3c2200)
+[c23u11n4:55973:0:56029] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x65)
+[c21u07n4:45669:0:45669] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+[c23u13n2:53507:0:53571] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29b4bdc56200)
+[c23u16n2:58491:0:58491] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014AA3ECEACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+*** stack smashing detected ***: <unknown> terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[c21u07n4:45670:0:45670] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014888EEACCE0  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B6E8A76  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B6A5108  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B695B89  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B6C4AE2  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B6D072D  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B6CFB23  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B685648  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B69371F  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B62F342  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014884B62EF4B  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+libmpi.so.12.0.0   000014888FB00EAE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F6C9361  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888FC66D21  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F85DDEA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F5F0E05  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F653B99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F62F60A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F737DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014888F5F1A8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  0000148890EC0C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+[c21u17n3:45271:0:45325] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x28af6bb0a200)
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014888E347CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+[c21u17n3:45268:0:45326] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x293b73b42200)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014FF5652CCE0  Unknown               Unknown  Unknown
+libmlx5.so.1.24.4  000014FF1183C7CE  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D4B481  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D4F0FC  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D371EC  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D5087A  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D4FB23  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D05648  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12D1371F  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12CAF342  Unknown               Unknown  Unknown
+libpsm3-fi.so      000014FF12CAEF4B  Unknown               Unknown  Unknown
+[c21u17n3:45267:0:45329] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x290b5a222200)
+libmpi.so.12.0.0   000014FF57180EAE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56D49361  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF572E6D21  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56EDDDEA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56C70E05  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56CD3B99  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56CAF60A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56DB7DB5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014FF56C71A8C  MPI_Alltoall          Unknown  Unknown
+libmpifort.so.12.  000014FF58540C7E  PMPI_ALLTOALL         Unknown  Unknown
+pw.x               0000000000E887E2  fft_scatter_2d_mp         123  fft_scatter_2d.f90
+pw.x               0000000000E9F74E  fft_parallel_2d_m         172  fft_parallel_2d.f90
+pw.x               0000000000E8AB5C  invfft_y_                  91  fft_fwinv.f90
+[c21u17n3:45265:0:45328] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29b8d616e200)
+pw.x               0000000000A66E75  fft_wave_mp_wave_         152  fft_wave.f90
+pw.x               00000000005D0BAF  sum_band_IP_sum_b         703  sum_band.f90
+pw.x               00000000005CD13F  sum_band_                 175  sum_band.f90
+pw.x               000000000040E50F  electrons_scf_            716  electrons.f90
+pw.x               000000000040B6AD  electrons_                189  electrons.f90
+pw.x               000000000058EED2  run_pwscf_                187  run_pwscf.f90
+pw.x               00000000004088F3  MAIN__                     85  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014FF559C7CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             

@@ -2,6 +2,8 @@ import os
 import json
 import math
 import random
+from datetime import datetime
+from subprocess import run
 
 from ase.io import read, write
 from ase.calculators.espresso import Espresso
@@ -63,6 +65,7 @@ def ase_calc(label, ecutwfc):
         kpts=kpts,
         label=label,
     )
+
 
 
 for i in [850, 1050, 1200]:
