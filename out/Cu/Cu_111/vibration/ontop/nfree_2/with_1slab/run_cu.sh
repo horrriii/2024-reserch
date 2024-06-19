@@ -1,7 +1,7 @@
 #!/bin/sh
 #SBATCH -J Cu_111
 #SBATCH -p F16cpu
-#SBATCH -N 8
+#SBATCH -N 16
 #SBATCH -n 128
 #SBATCH -c 4
 
