@@ -1,0 +1,311 @@
+started at date
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+srun: error: c22u01n3: tasks 48-55: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=2040581.0
+srun: error: c23u18n4: tasks 120-127: Exited with exit code 255
+slurmstepd: error: *** STEP 2040581.0 ON c20u10n2 CANCELLED AT 2024-06-21T09:35:59 ***
+srun: error: c21u02n3: tasks 16-23: Exited with exit code 255
+srun: error: c22u03n2: tasks 56-63: Exited with exit code 255
+srun: error: c21u02n4: tasks 24-31: Exited with exit code 255
+srun: error: c22u05n2: tasks 64-71: Exited with exit code 255
+srun: error: c23u17n3: tasks 88-95: Exited with exit code 255
+srun: error: c23u17n1: tasks 80-87: Exited with exit code 255
+srun: error: c22u12n3: tasks 72-79: Exited with exit code 255
+srun: error: c23u18n3: tasks 112-119: Exited with exit code 255
+srun: error: c23u18n1: tasks 104-111: Exited with exit code 255
+srun: error: c21u03n1: tasks 32-39: Exited with exit code 255
+srun: error: c20u10n3: tasks 8-15: Exited with exit code 255
+srun: error: c21u03n2: tasks 40-47: Exited with exit code 255
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000146AD96DECE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000146AD96D56BB  Unknown               Unknown  Unknown
+libiomp5.so        0000146AD9065BD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        0000146AD8FD9ED8  Unknown               Unknown  Unknown
+ld-2.28.so         0000146AE4EB21E6  Unknown               Unknown  Unknown
+libc-2.28.so       0000146AD8B9023C  Unknown               Unknown  Unknown
+libc-2.28.so       0000146AD8B90370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       0000146AD8B79CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014D367F3DCE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014D367F346BB  Unknown               Unknown  Unknown
+libiomp5.so        000014D3678C4BD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        000014D367838ED8  Unknown               Unknown  Unknown
+ld-2.28.so         000014D3737111E6  Unknown               Unknown  Unknown
+libc-2.28.so       000014D3673EF23C  Unknown               Unknown  Unknown
+libc-2.28.so       000014D3673EF370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014D3673D8CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014804070BCE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001480407026BB  Unknown               Unknown  Unknown
+libiomp5.so        0000148040092BD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        0000148040006ED8  Unknown               Unknown  Unknown
+ld-2.28.so         000014804BEDF1E6  Unknown               Unknown  Unknown
+libc-2.28.so       000014803FBBD23C  Unknown               Unknown  Unknown
+libc-2.28.so       000014803FBBD370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014803FBA6CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014AD21F65CE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014AD21F5C6BB  Unknown               Unknown  Unknown
+libiomp5.so        000014AD218ECBD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        000014AD21860ED8  Unknown               Unknown  Unknown
+ld-2.28.so         000014AD2D7391E6  Unknown               Unknown  Unknown
+libc-2.28.so       000014AD2141723C  Unknown               Unknown  Unknown
+libc-2.28.so       000014AD21417370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014AD21400CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015188D488CE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  000015188D47F6BB  Unknown               Unknown  Unknown
+libiomp5.so        000015188CE0FBD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        000015188CD83ED8  Unknown               Unknown  Unknown
+ld-2.28.so         0000151898C5C1E6  Unknown               Unknown  Unknown
+libc-2.28.so       000015188C93A23C  Unknown               Unknown  Unknown
+libc-2.28.so       000015188C93A370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000015188C923CF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000147FC5EF4CE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000147FC5EEB6BB  Unknown               Unknown  Unknown
+libiomp5.so        0000147FC587BBD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        0000147FC57EFED8  Unknown               Unknown  Unknown
+ld-2.28.so         0000147FD16C81E6  Unknown               Unknown  Unknown
+libc-2.28.so       0000147FC53A623C  Unknown               Unknown  Unknown
+libc-2.28.so       0000147FC53A6370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       0000147FC538FCF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001537AAFC3CE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001537AAFBA6BB  Unknown               Unknown  Unknown
+libiomp5.so        00001537AA94ABD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        00001537AA8BEED8  Unknown               Unknown  Unknown
+ld-2.28.so         00001537B67971E6  Unknown               Unknown  Unknown
+libc-2.28.so       00001537AA47523C  Unknown               Unknown  Unknown
+libc-2.28.so       00001537AA475370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       00001537AA45ECF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014FA5056FCE0  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014FA505666BB  Unknown               Unknown  Unknown
+libiomp5.so        000014FA4FEF6BD2  __kmp_reap_worker     Unknown  Unknown
+libiomp5.so        000014FA4FE6AED8  Unknown               Unknown  Unknown
+ld-2.28.so         000014FA5BD431E6  Unknown               Unknown  Unknown
+libc-2.28.so       000014FA4FA2123C  Unknown               Unknown  Unknown
+libc-2.28.so       000014FA4FA21370  on_exit               Unknown  Unknown
+pw.x               000000000107A8F1  Unknown               Unknown  Unknown
+pw.x               000000000107A956  Unknown               Unknown  Unknown
+pw.x               000000000040894F  MAIN__                     99  pwscf.f90
+pw.x               000000000040875D  Unknown               Unknown  Unknown
+libc-2.28.so       000014FA4FA0ACF3  __libc_start_main     Unknown  Unknown
+pw.x               000000000040867E  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001488FD71BCE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  00001488BB6C2B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015290E9DECE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  00001528CC985B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000149FED762CE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  0000149FAB709B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014C842205CE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  000014C8001ACB48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A8019BCCE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  000014A7BF963B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014F915960CE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  000014F8D3907B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000154A7E23CCE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  0000154A3C1E3B48  _fini                 Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000149820C97CE0  Unknown               Unknown  Unknown
+libverbs-1.12-fi.  00001497DEC3EB48  _fini                 Unknown  Unknown
+srun: error: c23u17n4: tasks 96-103: Exited with exit code 1
+srun: error: c20u10n2: tasks 0-7: Exited with exit code 1
+Traceback (most recent call last):
+  File "slab_ads.py", line 97, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in Cu-850-7.746788121318915.pwi > Cu-850-7.746788121318915.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/bridge/beef_pp with error code 255

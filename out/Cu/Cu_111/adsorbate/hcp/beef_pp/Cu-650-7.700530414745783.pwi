@@ -33,9 +33,9 @@
    scf_must_converge = .true.
    conv_thr         = 7.349864494991328e-12
    mixing_mode      = 'local-TF'
-   mixing_beta      = 0.3333333333333333
-   mixing_ndim      = 12
+   mixing_beta      = 0.25
    diagonalization  = 'cg'
+   !mixing_ndim     = 12
 /
 &IONS
 /

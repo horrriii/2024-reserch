@@ -29,6 +29,7 @@ def ase_calc(label, ecutwfc):
     input_data = {
         "control": {
             "calculation": "scf",
+            "restart_mode": "restart",
             "title": label,
             "verbosity": "high",
             "outdir": "tmp",
