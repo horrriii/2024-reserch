@@ -1,0 +1,436 @@
+
+     Program PWSCF v.7.2 starts on  2Jul2024 at 18:24:54 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on     768 processor cores
+     Number of MPI processes:               384
+     Threads/MPI process:                     2
+
+     MPI processes distributed on     6 nodes
+     229422 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading input from Cu-850-7.746788121318915.pwi
+Warning: card &CELL ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Cu.beef-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 3D renormalized
+     file C.beef-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     file O.beef-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2P renormalized
+
+     **************************************************************************
+     Initializing libbeef V0.1.2 with the BEEF-vdW functional.
+     Citation: Wellendorff et al., PRB 85, 235149 (2012).
+     **************************************************************************
+
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+ 
+     K-points division:     npool     =       3
+     band groups division:  nbgrp     =      32
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     wavefunctions fft division:  Y-proc x Z-proc =       4      1
+     wavefunctions fft division:  task group distribution
+                                  #TG    x Z-proc =       4      1
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        2297     917    249               492625   124663   17537
+     Max        2309     925    255               493285   124913   17691
+     Sum        9223    3679   1003              1972155   498941   70371
+ 
+     Using Pencil Decomposition
+ 
+
+     Title: 
+     Cu-850-7.746788121318915                                                   
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.6393  a.u.
+     unit-cell volume          =    7479.3565 (a.u.)^3
+     number of atoms/cell      =           38
+     number of atomic types    =            3
+     number of electrons       =       406.00
+     number of Kohn-Sham states=          244
+     kinetic-energy cutoff     =      62.4738  Ry
+     charge density cutoff     =     624.7385  Ry
+     scf convergence threshold =      7.3E-12
+     mixing beta               =       0.3333
+     number of iterations used =           12  local-TF  mixing
+     energy convergence thresh.=      7.3E-07
+     force convergence thresh. =      3.9E-04
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     nstep                     =           50
+
+
+     Effective Screening Medium Method
+     =================================
+     Boundary Conditions: Vacuum-Slab-Metal
+     total charge in unit cell        =   0.0000
+     grid points for fit at edges     =        4 
+ 
+
+     celldm(1)=  14.639308  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000   2.752783 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000 -0.577350  0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.363269 )  
+
+
+     PseudoPot. # 1 for Cu read from file:
+     /home/k0227/k022716/QE/pseudo/beef/Cu.beef-dn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 5c2e06f1363dd15696904a521997ce16
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for C  read from file:
+     /home/k0227/k022716/QE/pseudo/beef/C.beef-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 3242be9e0015b82b0ed5ff45e65f34ec
+     Pseudo is Projector augmented-wave + core cor, Zval =  4.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1073 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     /home/k0227/k022716/QE/pseudo/beef/O.beef-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: be449223b47fa93bb079dbf01a63c6ce
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Cu            11.00    63.54600     Cu( 1.00)
+        C              4.00    12.01100     C ( 1.00)
+        O              6.00    15.99900     O ( 1.00)
+
+      2 Sym. Ops. (no inversion) found ( 1 have fractional translation)
+
+
+                                    s                        frac. trans.
+
+      isym =  1     identity                                     
+
+ cryst.   s( 1) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 1) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  2     inv. 180 deg rotation - cart. axis [1,0,0]   
+
+ cryst.   s( 2) = (    -1          0          0      )    f =( -0.3333333 )
+                  (    -1          1          0      )       (  0.0000000 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s( 2) = ( -1.0000000  0.0000000  0.0000000 )    f =( -0.3333333 )
+                  (  0.0000000  1.0000000  0.0000000 )       (  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Cu  tau(   1) = (   0.0000000   0.0000000  -0.8211657  )
+         2           Cu  tau(   2) = (   0.3333333   0.0000000  -0.8211657  )
+         3           Cu  tau(   3) = (   0.6666667   0.0000000  -0.8211657  )
+         4           Cu  tau(   4) = (   0.1666667   0.2886751  -0.8211657  )
+         5           Cu  tau(   5) = (   0.5000000   0.2886751  -0.8211657  )
+         6           Cu  tau(   6) = (   0.8333333   0.2886751  -0.8211657  )
+         7           Cu  tau(   7) = (   0.3333333   0.5773503  -0.8211657  )
+         8           Cu  tau(   8) = (   0.6666667   0.5773503  -0.8211657  )
+         9           Cu  tau(   9) = (   1.0000000   0.5773503  -0.8211657  )
+        10           Cu  tau(  10) = (   0.1666667   0.0962250  -0.5490002  )
+        11           Cu  tau(  11) = (   0.5000000   0.0962250  -0.5490002  )
+        12           Cu  tau(  12) = (   0.8333333   0.0962250  -0.5490002  )
+        13           Cu  tau(  13) = (   0.3333333   0.3849002  -0.5490002  )
+        14           Cu  tau(  14) = (   0.6666667   0.3849002  -0.5490002  )
+        15           Cu  tau(  15) = (   1.0000000   0.3849002  -0.5490002  )
+        16           Cu  tau(  16) = (   0.5000000   0.6735753  -0.5490002  )
+        17           Cu  tau(  17) = (   0.8333333   0.6735753  -0.5490002  )
+        18           Cu  tau(  18) = (   1.1666667   0.6735753  -0.5490002  )
+        19           Cu  tau(  19) = (   0.0000000   0.1924501  -0.2768347  )
+        20           Cu  tau(  20) = (   0.3333333   0.1924501  -0.2768347  )
+        21           Cu  tau(  21) = (   0.6666667   0.1924501  -0.2768347  )
+        22           Cu  tau(  22) = (   0.1666667   0.4811252  -0.2768347  )
+        23           Cu  tau(  23) = (   0.5000000   0.4811252  -0.2768347  )
+        24           Cu  tau(  24) = (   0.8333333   0.4811252  -0.2768347  )
+        25           Cu  tau(  25) = (   0.3333333   0.7698004  -0.2768347  )
+        26           Cu  tau(  26) = (   0.6666667   0.7698004  -0.2768347  )
+        27           Cu  tau(  27) = (   1.0000000   0.7698004  -0.2768347  )
+        28           Cu  tau(  28) = (   0.0000000   0.0000000  -0.0046691  )
+        29           Cu  tau(  29) = (   0.3333333   0.0000000  -0.0046691  )
+        30           Cu  tau(  30) = (   0.6666667   0.0000000  -0.0046691  )
+        31           Cu  tau(  31) = (   0.1666667   0.2886751  -0.0046691  )
+        32           Cu  tau(  32) = (   0.5000000   0.2886751  -0.0046691  )
+        33           Cu  tau(  33) = (   0.8333333   0.2886751  -0.0046691  )
+        34           Cu  tau(  34) = (   0.3333333   0.5773503  -0.0046691  )
+        35           Cu  tau(  35) = (   0.6666667   0.5773503  -0.0046691  )
+        36           Cu  tau(  36) = (   1.0000000   0.5773503  -0.0046691  )
+        37           C   tau(  37) = (   0.6666667   0.2886751   0.1001477  )
+        38           O   tau(  38) = (   0.6666667   0.2886751   0.2470481  )
+
+   Crystallographic axes
+
+     site n.     atom                  positions (cryst. coord.)
+         1           Cu  tau(   1) = (  0.0000000  0.0000000 -0.2983038  )
+         2           Cu  tau(   2) = (  0.3333333  0.0000000 -0.2983038  )
+         3           Cu  tau(   3) = (  0.6666667  0.0000000 -0.2983038  )
+         4           Cu  tau(   4) = (  0.0000000  0.3333333 -0.2983038  )
+         5           Cu  tau(   5) = (  0.3333333  0.3333333 -0.2983038  )
+         6           Cu  tau(   6) = (  0.6666667  0.3333333 -0.2983038  )
+         7           Cu  tau(   7) = ( -0.0000000  0.6666667 -0.2983038  )
+         8           Cu  tau(   8) = (  0.3333333  0.6666667 -0.2983038  )
+         9           Cu  tau(   9) = (  0.6666667  0.6666667 -0.2983038  )
+        10           Cu  tau(  10) = (  0.1111111  0.1111111 -0.1994346  )
+        11           Cu  tau(  11) = (  0.4444444  0.1111111 -0.1994346  )
+        12           Cu  tau(  12) = (  0.7777778  0.1111111 -0.1994346  )
+        13           Cu  tau(  13) = (  0.1111111  0.4444444 -0.1994346  )
+        14           Cu  tau(  14) = (  0.4444444  0.4444444 -0.1994346  )
+        15           Cu  tau(  15) = (  0.7777778  0.4444444 -0.1994346  )
+        16           Cu  tau(  16) = (  0.1111111  0.7777778 -0.1994346  )
+        17           Cu  tau(  17) = (  0.4444444  0.7777778 -0.1994346  )
+        18           Cu  tau(  18) = (  0.7777778  0.7777778 -0.1994346  )
+        19           Cu  tau(  19) = ( -0.1111111  0.2222222 -0.1005654  )
+        20           Cu  tau(  20) = (  0.2222222  0.2222222 -0.1005654  )
+        21           Cu  tau(  21) = (  0.5555556  0.2222222 -0.1005654  )
+        22           Cu  tau(  22) = ( -0.1111111  0.5555556 -0.1005654  )
+        23           Cu  tau(  23) = (  0.2222222  0.5555556 -0.1005654  )
+        24           Cu  tau(  24) = (  0.5555556  0.5555556 -0.1005654  )
+        25           Cu  tau(  25) = ( -0.1111111  0.8888889 -0.1005654  )
+        26           Cu  tau(  26) = (  0.2222222  0.8888889 -0.1005654  )
+        27           Cu  tau(  27) = (  0.5555556  0.8888889 -0.1005654  )
+        28           Cu  tau(  28) = (  0.0000000  0.0000000 -0.0016962  )
+        29           Cu  tau(  29) = (  0.3333333  0.0000000 -0.0016962  )
+        30           Cu  tau(  30) = (  0.6666667  0.0000000 -0.0016962  )
+        31           Cu  tau(  31) = (  0.0000000  0.3333333 -0.0016962  )
+        32           Cu  tau(  32) = (  0.3333333  0.3333333 -0.0016962  )
+        33           Cu  tau(  33) = (  0.6666667  0.3333333 -0.0016962  )
+        34           Cu  tau(  34) = ( -0.0000000  0.6666667 -0.0016962  )
+        35           Cu  tau(  35) = (  0.3333333  0.6666667 -0.0016962  )
+        36           Cu  tau(  36) = (  0.6666667  0.6666667 -0.0016962  )
+        37           C   tau(  37) = (  0.5000000  0.3333333  0.0363805  )
+        38           O   tau(  38) = (  0.5000000  0.3333333  0.0897448  )
+
+     number of k points=    21  Marzari-Vanderbilt smearing, width (Ry)=  0.0073
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (   0.0000000   0.1443376   0.0000000), wk =   0.0625000
+        k(    3) = (   0.0000000   0.2886751   0.0000000), wk =   0.0625000
+        k(    4) = (   0.0000000   0.4330127   0.0000000), wk =   0.0625000
+        k(    5) = (   0.0000000  -0.5773503   0.0000000), wk =   0.0312500
+        k(    6) = (   0.1250000   0.2165064   0.0000000), wk =   0.1250000
+        k(    7) = (   0.1250000   0.3608439   0.0000000), wk =   0.1250000
+        k(    8) = (   0.1250000  -0.6495191   0.0000000), wk =   0.1250000
+        k(    9) = (   0.2500000  -0.7216878   0.0000000), wk =   0.1250000
+        k(   10) = (   0.2500000  -0.5773503   0.0000000), wk =   0.0625000
+        k(   11) = (  -0.1250000   0.0721688   0.0000000), wk =   0.1250000
+        k(   12) = (  -0.2500000   0.1443376   0.0000000), wk =   0.1250000
+        k(   13) = (  -0.3750000   0.2165064   0.0000000), wk =   0.1250000
+        k(   14) = (   0.5000000  -0.2886751   0.0000000), wk =   0.0625000
+        k(   15) = (   0.2500000   0.0000000   0.0000000), wk =   0.0625000
+        k(   16) = (  -0.2500000   0.2886751   0.0000000), wk =   0.1250000
+        k(   17) = (   0.3750000   0.0721688   0.0000000), wk =   0.1250000
+        k(   18) = (   0.6250000  -0.2165064   0.0000000), wk =   0.1250000
+        k(   19) = (  -0.5000000  -0.4330127   0.0000000), wk =   0.1250000
+        k(   20) = (  -0.5000000  -0.5773503   0.0000000), wk =   0.0625000
+        k(   21) = (   0.6250000  -0.0721688   0.0000000), wk =   0.1250000
+
+                       cryst. coord.
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (   0.0000000   0.1250000   0.0000000), wk =   0.0625000
+        k(    3) = (   0.0000000   0.2500000   0.0000000), wk =   0.0625000
+        k(    4) = (   0.0000000   0.3750000   0.0000000), wk =   0.0625000
+        k(    5) = (   0.0000000  -0.5000000   0.0000000), wk =   0.0312500
+        k(    6) = (   0.1250000   0.2500000   0.0000000), wk =   0.1250000
+        k(    7) = (   0.1250000   0.3750000   0.0000000), wk =   0.1250000
+        k(    8) = (   0.1250000  -0.5000000   0.0000000), wk =   0.1250000
+        k(    9) = (   0.2500000  -0.5000000   0.0000000), wk =   0.1250000
+        k(   10) = (   0.2500000  -0.3750000   0.0000000), wk =   0.0625000
+        k(   11) = (  -0.1250000   0.0000000   0.0000000), wk =   0.1250000
+        k(   12) = (  -0.2500000   0.0000000   0.0000000), wk =   0.1250000
+        k(   13) = (  -0.3750000   0.0000000   0.0000000), wk =   0.1250000
+        k(   14) = (   0.5000000   0.0000000   0.0000000), wk =   0.0625000
+        k(   15) = (   0.2500000   0.1250000   0.0000000), wk =   0.0625000
+        k(   16) = (  -0.2500000   0.1250000   0.0000000), wk =   0.1250000
+        k(   17) = (   0.3750000   0.2500000   0.0000000), wk =   0.1250000
+        k(   18) = (   0.6250000   0.1250000   0.0000000), wk =   0.1250000
+        k(   19) = (  -0.5000000  -0.6250000   0.0000000), wk =   0.1250000
+        k(   20) = (  -0.5000000  -0.7500000   0.0000000), wk =   0.0625000
+        k(   21) = (   0.6250000   0.2500000   0.0000000), wk =   0.1250000
+
+     Dense  grid:  1972155 G-vectors     FFT dimensions: ( 120, 120, 324)
+
+     Smooth grid:   498941 G-vectors     FFT dimensions: (  75,  75, 216)
+
+     Dynamical RAM for                 wfc:      58.05 MB
+
+     Dynamical RAM for     wfc (w. buffer):     464.41 MB
+
+     Dynamical RAM for           str. fact:      22.58 MB
+
+     Dynamical RAM for           local pot:       0.00 MB
+
+     Dynamical RAM for          nlocal pot:     157.98 MB
+
+     Dynamical RAM for                qrad:       6.02 MB
+
+     Dynamical RAM for          rho,v,vnew:      49.28 MB
+
+     Dynamical RAM for               rhoin:      16.43 MB
+
+     Dynamical RAM for            rho*nmix:     180.65 MB
+
+     Dynamical RAM for           G-vectors:      29.18 MB
+
+     Dynamical RAM for          h,s,v(r/c):       2.73 MB
+
+     Dynamical RAM for          <psi|beta>:       2.47 MB
+
+     Dynamical RAM for      wfcinit/wfcrot:     117.47 MB
+
+     Dynamical RAM for           addusdens:     562.01 MB
+
+     Dynamical RAM for          addusforce:     736.52 MB
+
+     Estimated static dynamical RAM per process >     820.46 MB
+
+     Estimated max dynamical RAM per process >       1.70 GB
+
+     Estimated total dynamical RAM >     606.45 GB
+
+     Atomic positions and unit cell read from directory:
+     tmp/Cu-850-7.746788121318915.save/
+     Atomic positions from file used, from input discarded
+ 
+
+     The initial density is read from file :
+     tmp/Cu-850-7.746788121318915.save/charge-density
+
+
+     negative rho (up, down):  5.226E-04 0.000E+00
+
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     % You are using vdW-DF, which was implemented by the Thonhauser group. %
+     % Please cite the following two papers that made this development      %
+     % possible and the two reviews that describe the various versions:     %
+     %                                                                      %
+     %   T. Thonhauser et al., PRL 115, 136402 (2015).                      %
+     %   T. Thonhauser et al., PRB 76, 125112 (2007).                       %
+     %   K. Berland et al., Rep. Prog. Phys. 78, 066501 (2015).             %
+     %   D.C. Langreth et al., J. Phys.: Condens. Matter 21, 084203 (2009). %
+     %                                                                      %
+     % If you are calculating stress with vdW-DF, please also cite:         %
+     %                                                                      %
+     %   R. Sabatini et al., J. Phys.: Condens. Matter 24, 424209 (2012).   %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     %  vdW-DF NEWS:                                                        %
+     %                                                                      %
+     %  * vdW-DF3 is now available. DOI: 10.1021/acs.jctc.0c00471           %
+     %    use with input_dft = 'vdW-DF3-opt1' or 'vdW-DF3-opt2'             %
+     %                                                                      %
+     %  * Unscreened and range-separated hybrid vdW-DF-cx functionals       %
+     %    DOI: 10.1063/1.4986522 and 10.1088/1361-648X/ac2ad2               %
+     %    use with input_dft = 'vdW-DF-cx0'    and 'vdW-DF-ahcx'            %
+     %  * Unscreened and range-separated hybrid vdW-DF2-b86r functionals    %
+     %    DOI: 10.1063/1.4986522 and DOI: 10.1103/PhysRevX.12.041003        %
+     %    use with input_dft = 'vdW-DF2-br0' and 'vdW-DF2-ahbr'             %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+     Carrying out vdW-DF run using the following parameters:
+     Nqs    =  20  Npoints =  1024  r_max =  100.000
+     q_mesh =  0.00001000  0.04494208  0.09755937  0.15916263
+               0.23128650  0.31572767  0.41458969  0.53033537
+               0.66584808  0.82450364  1.01025438  1.22772762
+               1.48234092  1.78043706  2.12944203  2.53805004
+               3.01644009  3.57652955  4.23227104  5.00000000
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.29978536 Ry
+     -----------------------------------------------
+
+     Cannot read wfcs: file not found
+     Starting wfcs are  332 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+       PAW data deallocated on   20 nodes for type:  1
+       PAW data deallocated on  374 nodes for type:  2
+       PAW data deallocated on  374 nodes for type:  3
+     Calculation restarted from scf iteration #    38
+
+     total cpu time spent up to now is       41.1 secs
+
+     Self-consistent Calculation
+
+     iteration # 38     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1412 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        171071 MiB available memory on the node where the printing process lives
+------------------

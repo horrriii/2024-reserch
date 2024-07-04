@@ -1,0 +1,21 @@
+started at date
+srun: unrecognized option '--memory-per-cpu=1840'
+Try "srun --help" for more information
+Traceback (most recent call last):
+  File "slab_ads.py", line 97, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 940, in calculate
+    self.read_results()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/espresso.py", line 115, in read_results
+    output = io.read(self.label + '.pwo')
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 729, in read
+    format = format or filetype(filename, read=isinstance(filename, str))
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 935, in filetype
+    raise UnknownFileTypeError('Empty file: ' + filename)    # type: ignore
+ase.io.formats.UnknownFileTypeError: Empty file: Cu-850-7.746788121318915.pwo
