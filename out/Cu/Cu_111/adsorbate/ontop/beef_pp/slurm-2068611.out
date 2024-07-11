@@ -1,0 +1,706 @@
+========= Job started  at Tue Jul  9 00:19:45 JST 2024 ==========
+
+     Program PWSCF v.7.2 starts on  9Jul2024 at  0:20:22 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on     768 processor cores
+     Number of MPI processes:               192
+     Threads/MPI process:                     4
+
+     MPI processes distributed on     6 nodes
+     230965 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading input from Cu-1050-7.74485508512641.pwi
+Warning: card &CELL ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Cu.beef-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 3D renormalized
+     file C.beef-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     file O.beef-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2P renormalized
+
+     **************************************************************************
+     Initializing libbeef V0.1.2 with the BEEF-vdW functional.
+     Citation: Wellendorff et al., PRB 85, 235149 (2012).
+     **************************************************************************
+
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+ 
+     band groups division:  nbgrp     =      24
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     wavefunctions fft division:  Y-proc x Z-proc =       8      1
+     wavefunctions fft division:  task group distribution
+                                  #TG    x Z-proc =       8      1
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        1421     564    151               337637    85245   11768
+     Max        1433     573    161               338951    85873   12073
+     Sum       11401    4543   1237              2706429   684363   95481
+ 
+     Using Pencil Decomposition
+ 
+
+     Title: 
+     Cu-1050-7.74485508512641                                                   
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.6357  a.u.
+     unit-cell volume          =    7475.0710 (a.u.)^3
+     number of atoms/cell      =           38
+     number of atomic types    =            3
+     number of electrons       =       406.00
+     number of Kohn-Sham states=          244
+     kinetic-energy cutoff     =      77.1736  Ry
+     charge density cutoff     =     771.7358  Ry
+     scf convergence threshold =      7.3E-12
+     mixing beta               =       0.3333
+     number of iterations used =           12  local-TF  mixing
+     energy convergence thresh.=      7.3E-07
+     force convergence thresh. =      3.9E-04
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     nstep                     =           50
+
+
+     Effective Screening Medium Method
+     =================================
+     Boundary Conditions: Vacuum-Slab-Metal
+     total charge in unit cell        =   0.0000
+     grid points for fit at edges     =        4 
+ 
+
+     celldm(1)=  14.635655  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000   2.753266 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000 -0.577350  0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.363205 )  
+
+
+     PseudoPot. # 1 for Cu read from file:
+     /home/k0227/k022716/QE/pseudo/beef/Cu.beef-dn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 5c2e06f1363dd15696904a521997ce16
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for C  read from file:
+     /home/k0227/k022716/QE/pseudo/beef/C.beef-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 3242be9e0015b82b0ed5ff45e65f34ec
+     Pseudo is Projector augmented-wave + core cor, Zval =  4.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1073 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     /home/k0227/k022716/QE/pseudo/beef/O.beef-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: be449223b47fa93bb079dbf01a63c6ce
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using 'atomic' code by A. Dal Corso  v.7.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Cu            11.00    63.54600     Cu( 1.00)
+        C              4.00    12.01100     C ( 1.00)
+        O              6.00    15.99900     O ( 1.00)
+
+      6 Sym. Ops. (no inversion) found
+
+
+                                    s                        frac. trans.
+
+      isym =  1     identity                                     
+
+ cryst.   s( 1) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 1) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  2     120 deg rotation - cryst. axis [0,0,1]       
+
+ cryst.   s( 2) = (    -1          1          0      )
+                  (    -1          0          0      )
+                  (     0          0          1      )
+
+ cart.    s( 2) = ( -0.5000000 -0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  3     120 deg rotation - cryst. axis [0,0,-1]      
+
+ cryst.   s( 3) = (     0         -1          0      )
+                  (     1         -1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 3) = ( -0.5000000  0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  4     inv. 180 deg rotation - cart. axis [1,0,0]   
+
+ cryst.   s( 4) = (    -1          0          0      )
+                  (    -1          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 4) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  5     inv. 180 deg rotation - cryst. axis [0,1,0]  
+
+ cryst.   s( 5) = (     0          1          0      )
+                  (     1          0          0      )
+                  (     0          0          1      )
+
+ cart.    s( 5) = (  0.5000000  0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  6     inv. 180 deg rotation - cryst. axis [1,1,0]  
+
+ cryst.   s( 6) = (     1         -1          0      )
+                  (     0         -1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 6) = (  0.5000000 -0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Cu  tau(   1) = (   0.0000000   0.0000000  -0.8212382  )
+         2           Cu  tau(   2) = (   0.3333333   0.0000000  -0.8212382  )
+         3           Cu  tau(   3) = (   0.6666667   0.0000000  -0.8212382  )
+         4           Cu  tau(   4) = (   0.1666667   0.2886751  -0.8212382  )
+         5           Cu  tau(   5) = (   0.5000000   0.2886751  -0.8212382  )
+         6           Cu  tau(   6) = (   0.8333333   0.2886751  -0.8212382  )
+         7           Cu  tau(   7) = (   0.3333333   0.5773503  -0.8212382  )
+         8           Cu  tau(   8) = (   0.6666667   0.5773503  -0.8212382  )
+         9           Cu  tau(   9) = (   1.0000000   0.5773503  -0.8212382  )
+        10           Cu  tau(  10) = (   0.1666667   0.0962250  -0.5490727  )
+        11           Cu  tau(  11) = (   0.5000000   0.0962250  -0.5490727  )
+        12           Cu  tau(  12) = (   0.8333333   0.0962250  -0.5490727  )
+        13           Cu  tau(  13) = (   0.3333333   0.3849002  -0.5490727  )
+        14           Cu  tau(  14) = (   0.6666667   0.3849002  -0.5490727  )
+        15           Cu  tau(  15) = (   1.0000000   0.3849002  -0.5490727  )
+        16           Cu  tau(  16) = (   0.5000000   0.6735753  -0.5490727  )
+        17           Cu  tau(  17) = (   0.8333333   0.6735753  -0.5490727  )
+        18           Cu  tau(  18) = (   1.1666667   0.6735753  -0.5490727  )
+        19           Cu  tau(  19) = (   0.0000000   0.1924501  -0.2769072  )
+        20           Cu  tau(  20) = (   0.3333333   0.1924501  -0.2769072  )
+        21           Cu  tau(  21) = (   0.6666667   0.1924501  -0.2769072  )
+        22           Cu  tau(  22) = (   0.1666667   0.4811252  -0.2769072  )
+        23           Cu  tau(  23) = (   0.5000000   0.4811252  -0.2769072  )
+        24           Cu  tau(  24) = (   0.8333333   0.4811252  -0.2769072  )
+        25           Cu  tau(  25) = (   0.3333333   0.7698004  -0.2769072  )
+        26           Cu  tau(  26) = (   0.6666667   0.7698004  -0.2769072  )
+        27           Cu  tau(  27) = (   1.0000000   0.7698004  -0.2769072  )
+        28           Cu  tau(  28) = (   0.0000000   0.0000000  -0.0047416  )
+        29           Cu  tau(  29) = (   0.3333333   0.0000000  -0.0047416  )
+        30           Cu  tau(  30) = (   0.6666667   0.0000000  -0.0047416  )
+        31           Cu  tau(  31) = (   0.1666667   0.2886751  -0.0047416  )
+        32           Cu  tau(  32) = (   0.5000000   0.2886751  -0.0047416  )
+        33           Cu  tau(  33) = (   0.8333333   0.2886751  -0.0047416  )
+        34           Cu  tau(  34) = (   0.3333333   0.5773503  -0.0047416  )
+        35           Cu  tau(  35) = (   0.6666667   0.5773503  -0.0047416  )
+        36           Cu  tau(  36) = (   1.0000000   0.5773503  -0.0047416  )
+        37           C   tau(  37) = (   0.5000000   0.2886751   0.1001014  )
+        38           O   tau(  38) = (   0.5000000   0.2886751   0.2470384  )
+
+   Crystallographic axes
+
+     site n.     atom                  positions (cryst. coord.)
+         1           Cu  tau(   1) = (  0.0000000  0.0000000 -0.2982778  )
+         2           Cu  tau(   2) = (  0.3333333  0.0000000 -0.2982778  )
+         3           Cu  tau(   3) = (  0.6666667  0.0000000 -0.2982778  )
+         4           Cu  tau(   4) = (  0.0000000  0.3333333 -0.2982778  )
+         5           Cu  tau(   5) = (  0.3333333  0.3333333 -0.2982778  )
+         6           Cu  tau(   6) = (  0.6666667  0.3333333 -0.2982778  )
+         7           Cu  tau(   7) = (  0.0000000  0.6666667 -0.2982778  )
+         8           Cu  tau(   8) = (  0.3333333  0.6666667 -0.2982778  )
+         9           Cu  tau(   9) = (  0.6666667  0.6666667 -0.2982778  )
+        10           Cu  tau(  10) = (  0.1111111  0.1111111 -0.1994259  )
+        11           Cu  tau(  11) = (  0.4444444  0.1111111 -0.1994259  )
+        12           Cu  tau(  12) = (  0.7777778  0.1111111 -0.1994259  )
+        13           Cu  tau(  13) = (  0.1111111  0.4444444 -0.1994259  )
+        14           Cu  tau(  14) = (  0.4444444  0.4444444 -0.1994259  )
+        15           Cu  tau(  15) = (  0.7777778  0.4444444 -0.1994259  )
+        16           Cu  tau(  16) = (  0.1111111  0.7777778 -0.1994259  )
+        17           Cu  tau(  17) = (  0.4444444  0.7777778 -0.1994259  )
+        18           Cu  tau(  18) = (  0.7777778  0.7777778 -0.1994259  )
+        19           Cu  tau(  19) = ( -0.1111111  0.2222222 -0.1005741  )
+        20           Cu  tau(  20) = (  0.2222222  0.2222222 -0.1005741  )
+        21           Cu  tau(  21) = (  0.5555556  0.2222222 -0.1005741  )
+        22           Cu  tau(  22) = ( -0.1111111  0.5555556 -0.1005741  )
+        23           Cu  tau(  23) = (  0.2222222  0.5555556 -0.1005741  )
+        24           Cu  tau(  24) = (  0.5555556  0.5555556 -0.1005741  )
+        25           Cu  tau(  25) = ( -0.1111111  0.8888889 -0.1005741  )
+        26           Cu  tau(  26) = (  0.2222222  0.8888889 -0.1005741  )
+        27           Cu  tau(  27) = (  0.5555556  0.8888889 -0.1005741  )
+        28           Cu  tau(  28) = (  0.0000000  0.0000000 -0.0017222  )
+        29           Cu  tau(  29) = (  0.3333333  0.0000000 -0.0017222  )
+        30           Cu  tau(  30) = (  0.6666667  0.0000000 -0.0017222  )
+        31           Cu  tau(  31) = (  0.0000000  0.3333333 -0.0017222  )
+        32           Cu  tau(  32) = (  0.3333333  0.3333333 -0.0017222  )
+        33           Cu  tau(  33) = (  0.6666667  0.3333333 -0.0017222  )
+        34           Cu  tau(  34) = (  0.0000000  0.6666667 -0.0017222  )
+        35           Cu  tau(  35) = (  0.3333333  0.6666667 -0.0017222  )
+        36           Cu  tau(  36) = (  0.6666667  0.6666667 -0.0017222  )
+        37           C   tau(  37) = (  0.3333333  0.3333333  0.0363573  )
+        38           O   tau(  38) = (  0.3333333  0.3333333  0.0897256  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0073
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (   0.0000000   0.1443376   0.0000000), wk =   0.1875000
+        k(    3) = (   0.0000000   0.2886751   0.0000000), wk =   0.1875000
+        k(    4) = (   0.0000000   0.4330127   0.0000000), wk =   0.1875000
+        k(    5) = (   0.0000000  -0.5773503   0.0000000), wk =   0.0937500
+        k(    6) = (   0.1250000   0.2165064   0.0000000), wk =   0.1875000
+        k(    7) = (   0.1250000   0.3608439   0.0000000), wk =   0.3750000
+        k(    8) = (   0.1250000  -0.6495191   0.0000000), wk =   0.3750000
+        k(    9) = (   0.2500000  -0.7216878   0.0000000), wk =   0.1875000
+        k(   10) = (   0.2500000  -0.5773503   0.0000000), wk =   0.1875000
+
+                       cryst. coord.
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (   0.0000000   0.1250000   0.0000000), wk =   0.1875000
+        k(    3) = (   0.0000000   0.2500000   0.0000000), wk =   0.1875000
+        k(    4) = (   0.0000000   0.3750000   0.0000000), wk =   0.1875000
+        k(    5) = (   0.0000000  -0.5000000   0.0000000), wk =   0.0937500
+        k(    6) = (   0.1250000   0.2500000   0.0000000), wk =   0.1875000
+        k(    7) = (   0.1250000   0.3750000   0.0000000), wk =   0.3750000
+        k(    8) = (   0.1250000  -0.5000000   0.0000000), wk =   0.3750000
+        k(    9) = (   0.2500000  -0.5000000   0.0000000), wk =   0.1875000
+        k(   10) = (   0.2500000  -0.3750000   0.0000000), wk =   0.1875000
+
+     Dense  grid:  2706429 G-vectors     FFT dimensions: ( 135, 135, 360)
+
+     Smooth grid:   684363 G-vectors     FFT dimensions: (  81,  81, 225)
+
+     Dynamical RAM for                 wfc:      39.83 MB
+
+     Dynamical RAM for     wfc (w. buffer):     438.09 MB
+
+     Dynamical RAM for           str. fact:      15.46 MB
+
+     Dynamical RAM for           local pot:       0.00 MB
+
+     Dynamical RAM for          nlocal pot:     108.38 MB
+
+     Dynamical RAM for                qrad:       6.69 MB
+
+     Dynamical RAM for          rho,v,vnew:      34.51 MB
+
+     Dynamical RAM for               rhoin:      11.50 MB
+
+     Dynamical RAM for            rho*nmix:     123.65 MB
+
+     Dynamical RAM for           G-vectors:      19.97 MB
+
+     Dynamical RAM for          h,s,v(r/c):       2.73 MB
+
+     Dynamical RAM for          <psi|beta>:       2.47 MB
+
+     Dynamical RAM for      wfcinit/wfcrot:      81.02 MB
+
+     Dynamical RAM for           addusdens:    1143.73 MB
+
+     Dynamical RAM for          addusforce:    1507.08 MB
+
+     Estimated static dynamical RAM per process >     686.95 MB
+
+     Estimated max dynamical RAM per process >       2.26 GB
+
+     Estimated total dynamical RAM >     434.56 GB
+
+     Atomic positions and unit cell read from directory:
+     tmp/Cu-1050-7.74485508512641.save/
+     Message from routine qexsd_readschema :
+     xml data file tmp/Cu-1050-7.74485508512641.save/data-file-schema.xml not found
+     Nothing found: using input atomic positions and unit cell
+
+     Cannot read rho : file not found
+
+     Initial potential from superposition of free atoms
+
+     starting charge     405.9921, renormalised to     406.0000
+
+     negative rho (up, down):  4.242E-04 0.000E+00
+
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     % You are using vdW-DF, which was implemented by the Thonhauser group. %
+     % Please cite the following two papers that made this development      %
+     % possible and the two reviews that describe the various versions:     %
+     %                                                                      %
+     %   T. Thonhauser et al., PRL 115, 136402 (2015).                      %
+     %   T. Thonhauser et al., PRB 76, 125112 (2007).                       %
+     %   K. Berland et al., Rep. Prog. Phys. 78, 066501 (2015).             %
+     %   D.C. Langreth et al., J. Phys.: Condens. Matter 21, 084203 (2009). %
+     %                                                                      %
+     % If you are calculating stress with vdW-DF, please also cite:         %
+     %                                                                      %
+     %   R. Sabatini et al., J. Phys.: Condens. Matter 24, 424209 (2012).   %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     %  vdW-DF NEWS:                                                        %
+     %                                                                      %
+     %  * vdW-DF3 is now available. DOI: 10.1021/acs.jctc.0c00471           %
+     %    use with input_dft = 'vdW-DF3-opt1' or 'vdW-DF3-opt2'             %
+     %                                                                      %
+     %  * Unscreened and range-separated hybrid vdW-DF-cx functionals       %
+     %    DOI: 10.1063/1.4986522 and 10.1088/1361-648X/ac2ad2               %
+     %    use with input_dft = 'vdW-DF-cx0'    and 'vdW-DF-ahcx'            %
+     %  * Unscreened and range-separated hybrid vdW-DF2-b86r functionals    %
+     %    DOI: 10.1063/1.4986522 and DOI: 10.1103/PhysRevX.12.041003        %
+     %    use with input_dft = 'vdW-DF2-br0' and 'vdW-DF2-ahbr'             %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+     Carrying out vdW-DF run using the following parameters:
+     Nqs    =  20  Npoints =  1024  r_max =  100.000
+     q_mesh =  0.00001000  0.04494208  0.09755937  0.15916263
+               0.23128650  0.31572767  0.41458969  0.53033537
+               0.66584808  0.82450364  1.01025438  1.22772762
+               1.48234092  1.78043706  2.12944203  2.53805004
+               3.01644009  3.57652955  4.23227104  5.00000000
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.48899291 Ry
+     -----------------------------------------------
+
+     Message from routine qexsd_readschema :
+     xml data file tmp/Cu-1050-7.74485508512641.save/data-file-schema.xml not found
+     Cannot read wfcs: file not found
+     Starting wfcs are  332 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+       PAW data deallocated on   10 nodes for type:  1
+       PAW data deallocated on  187 nodes for type:  2
+       PAW data deallocated on  187 nodes for type:  3
+
+     total cpu time spent up to now is       25.7 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1594 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202259 MiB available memory on the node where the printing process lives
+------------------
+     c_bands:  5 eigenvalues not converged
+     c_bands:  4 eigenvalues not converged
+     c_bands:  3 eigenvalues not converged
+     c_bands:  3 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  4 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  5 eigenvalues not converged
+     c_bands:  3 eigenvalues not converged
+     c_bands:  4 eigenvalues not converged
+     ethr =  1.00E-05,  avg # of iterations = 24.3
+
+     negative rho (up, down):  4.296E-04 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.46924863 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     8272.8 secs
+
+     total energy              =   -7894.04426119 Ry
+     estimated scf accuracy    <       1.03106029 Ry
+
+     iteration #  2     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          2258 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202877 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  2.54E-04,  avg # of iterations =  3.0
+
+     negative rho (up, down):  1.968E-04 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.43609219 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     9076.7 secs
+
+     total energy              =   -7893.86234983 Ry
+     estimated scf accuracy    <       0.64506541 Ry
+
+     iteration #  3     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          2271 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202650 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.59E-04,  avg # of iterations =  3.0
+
+     negative rho (up, down):  3.175E-05 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.44256604 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     9874.7 secs
+
+     total energy              =   -7893.92179318 Ry
+     estimated scf accuracy    <       0.41280004 Ry
+
+     iteration #  4     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          2275 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202506 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.02E-04,  avg # of iterations =  3.0
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.44033563 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is    10667.2 secs
+
+     total energy              =   -7893.85205238 Ry
+     estimated scf accuracy    <       0.27275754 Ry
+
+     iteration #  5     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          2275 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202373 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  6.72E-05,  avg # of iterations =  3.0
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.44081496 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is    11456.5 secs
+
+     total energy              =   -7893.87991803 Ry
+     estimated scf accuracy    <       0.02519617 Ry
+
+     iteration #  6     ecut=    77.17 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          2286 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        202166 MiB available memory on the node where the printing process lives
+------------------
+Abort(1010897422) on node 65 (rank 65 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x14a174a83040, rbuf=0x14a18820e2c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(675353102) on node 67 (rank 67 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x151ddd50f040, rbuf=0x151df649e2c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(675353102) on node 69 (rank 69 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x154a6449f040, rbuf=0x154a6b2822c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(608244238) on node 64 (rank 64 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x14fdaff63040, rbuf=0x14fdcd2052c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000008) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(138482190) on node 66 (rank 66 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x151219f4b040, rbuf=0x1512329cf2c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(541135374) on node 68 (rank 68 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x146c7a09f040, rbuf=0x146c930c32c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(406917646) on node 70 (rank 70 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x1468065a3040, rbuf=0x14681f3d02c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+Abort(1010897422) on node 71 (rank 71 in comm 0): Fatal error in PMPI_Allreduce: Message truncated, error stack:
+PMPI_Allreduce(388).........................: MPI_Allreduce(sbuf=0x150506323040, rbuf=0x15051ed772c0, count=398, datatype=MPI_DOUBLE_PRECISION, op=MPI_SUM, comm=comm=0xc4000004) failed
+PMPI_Allreduce(374).........................: 
+MPIDI_Allreduce_intra_composition_zeta(1071): 
+MPIDI_NM_mpi_allreduce(134).................: 
+MPIR_Allreduce_intra_auto(60)...............: 
+MPIR_Allreduce_intra_recursive_doubling(175): 
+MPIC_Recv(187)..............................: 
+MPID_Recv(671)..............................: 
+MPIDI_recv_unsafe(174)......................: 
+(unknown)(): Message truncated
+[c20u09n1:201975:0:202229] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x151e05709c84)
+[c20u09n1:201973:0:202225] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14a197479c84)
+[c20u09n1:201979:0:202227] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x15052dfe2c84)
+[c20u09n1:201977:0:202230] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x154a7a4edc84)
+[c20u09n1:201972:0:202218] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14fddc470c84)
+[c20u09n1:201974:0:202220] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x151241c3ac84)
+[c20u09n1:201978:0:202226] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14682e63bc84)
+[c20u09n1:201976:0:202228] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x146ca232ec84)
+slurmstepd: error: *** STEP 2068611.0 ON c20u07n3 CANCELLED AT 2024-07-09T03:33:08 ***
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+srun: error: c20u09n1: tasks 64-71: Segmentation fault (core dumped)
+srun: launch/slurm: _step_signal: Terminating StepId=2068611.0
+srun: error: c20u09n1: tasks 72-95: Killed
+srun: error: c20u11n1: tasks 160-191: Killed
+srun: error: c20u09n3: tasks 128-159: Killed
+srun: error: c20u09n2: tasks 96-127: Killed
+srun: error: c20u07n3: tasks 0-31: Killed
+srun: error: c20u07n4: tasks 32-63: Killed
+Traceback (most recent call last):
+  File "slab_ads.py", line 100, in <module>
+    potentialenergy = slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 940, in calculate
+    self.read_results()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/espresso.py", line 115, in read_results
+    output = io.read(self.label + '.pwo')
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 736, in read
+    return next(_iread(filename, slice(index, None), format, io,
+StopIteration
+========= Job finished at Tue Jul  9 03:33:10 JST 2024 ==========

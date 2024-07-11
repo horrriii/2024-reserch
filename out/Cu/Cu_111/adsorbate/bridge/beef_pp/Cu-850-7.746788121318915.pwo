@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on  2Jul2024 at 18:24:54 
+     Program PWSCF v.7.2 starts on  5Jul2024 at 18:34:59 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -11,11 +11,11 @@
      http://www.quantum-espresso.org/quote
 
      Parallel version (MPI & OpenMP), running on     768 processor cores
-     Number of MPI processes:               384
-     Threads/MPI process:                     2
+     Number of MPI processes:               192
+     Threads/MPI process:                     4
 
      MPI processes distributed on     6 nodes
-     229422 MiB available memory on the printing compute node when the environment starts
+     231223 MiB available memory on the printing compute node when the environment starts
  
      Reading input from Cu-850-7.746788121318915.pwi
 Warning: card &CELL ignored
@@ -45,7 +45,7 @@ Warning: card / ignored
      using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
  
      K-points division:     npool     =       3
-     band groups division:  nbgrp     =      32
+     band groups division:  nbgrp     =      16
      R & G space division:  proc/nbgrp/npool/nimage =       4
      wavefunctions fft division:  Y-proc x Z-proc =       4      1
      wavefunctions fft division:  task group distribution
@@ -353,7 +353,7 @@ Warning: card / ignored
 
      Estimated max dynamical RAM per process >       1.70 GB
 
-     Estimated total dynamical RAM >     606.45 GB
+     Estimated total dynamical RAM >     303.23 GB
 
      Atomic positions and unit cell read from directory:
      tmp/Cu-850-7.746788121318915.save/
@@ -417,20 +417,141 @@ Warning: card / ignored
      Cannot read wfcs: file not found
      Starting wfcs are  332 randomized atomic wfcs
      Checking if some PAW data can be deallocated... 
-       PAW data deallocated on   20 nodes for type:  1
-       PAW data deallocated on  374 nodes for type:  2
-       PAW data deallocated on  374 nodes for type:  3
-     Calculation restarted from scf iteration #    38
+       PAW data deallocated on   10 nodes for type:  1
+       PAW data deallocated on  187 nodes for type:  2
+       PAW data deallocated on  187 nodes for type:  3
 
-     total cpu time spent up to now is       41.1 secs
+     total cpu time spent up to now is       29.1 secs
 
      Self-consistent Calculation
 
-     iteration # 38     ecut=    62.47 Ry     beta= 0.33
+     iteration #  1     ecut=    62.47 Ry     beta= 0.33
      CG style diagonalization
 
 ---- Real-time Memory Report at c_bands before calling an iterative solver
-          1412 MiB given to the printing process from OS
+          1269 MiB given to the printing process from OS
              0 MiB allocation reported by mallinfo(arena+hblkhd)
-        171071 MiB available memory on the node where the printing process lives
+        200476 MiB available memory on the node where the printing process lives
+------------------
+     c_bands:  3 eigenvalues not converged
+     c_bands:  3 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.00E-05,  avg # of iterations = 18.3
+
+     negative rho (up, down):  5.727E-03 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.38235518 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     5352.8 secs
+
+     total energy              =   -7898.71969630 Ry
+     estimated scf accuracy    <       0.80600034 Ry
+
+     iteration #  2     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1941 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        198632 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.99E-04,  avg # of iterations =  3.0
+
+     negative rho (up, down):  1.821E-02 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.48043646 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     5957.0 secs
+
+     total energy              =   -7898.62233391 Ry
+     estimated scf accuracy    <       0.31905219 Ry
+
+     iteration #  3     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1947 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        198398 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  7.86E-05,  avg # of iterations =  3.0
+
+     negative rho (up, down):  1.199E-02 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.48019789 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     6557.6 secs
+
+     total energy              =   -7898.66407531 Ry
+     estimated scf accuracy    <       0.17693471 Ry
+
+     iteration #  4     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1947 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        198124 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.36E-05,  avg # of iterations =  3.0
+
+     negative rho (up, down):  5.664E-02 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.51669042 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     7161.3 secs
+
+     total energy              =   -7898.64269041 Ry
+     estimated scf accuracy    <       0.23481331 Ry
+
+     iteration #  5     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1960 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        197937 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.36E-05,  avg # of iterations =  3.0
+
+     negative rho (up, down):  5.755E-02 0.000E+00
+
+
+     -----------------------------------------------
+     Non-local corr. energy    =      22.52412244 Ry
+     -----------------------------------------------
+
+
+     total cpu time spent up to now is     7762.7 secs
+
+     total energy              =   -7898.62676621 Ry
+     estimated scf accuracy    <       0.02842785 Ry
+
+     iteration #  6     ecut=    62.47 Ry     beta= 0.33
+     CG style diagonalization
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+          1960 MiB given to the printing process from OS
+             0 MiB allocation reported by mallinfo(arena+hblkhd)
+        197787 MiB available memory on the node where the printing process lives
 ------------------

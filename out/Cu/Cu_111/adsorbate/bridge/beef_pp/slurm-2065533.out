@@ -1,0 +1,11 @@
+started at date
+Traceback (most recent call last):
+  File "slab_ads.py", line 69, in <module>
+    bulk = read("Cu-" + str(i) + "-3.61.pwo", index=-1)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 729, in read
+    format = format or filetype(filename, read=isinstance(filename, str))
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 920, in filetype
+    fd = open_with_compression(filename, 'rb')
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/io/formats.py", line 551, in open_with_compression
+    return open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Cu-850-3.61.pwo'

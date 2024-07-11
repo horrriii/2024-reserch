@@ -1,6 +1,0 @@
-started at date
-srun: Job 2044613 step creation temporarily disabled, retrying (Requested nodes are busy)
-srun: Step created for job 2044613
-srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
-slurmstepd: error: *** JOB 2044613 ON c21u06n2 CANCELLED AT 2024-06-25T01:00:35 DUE TO TIME LIMIT ***
-slurmstepd: error: *** STEP 2044613.34 ON c21u06n2 CANCELLED AT 2024-06-25T01:00:35 DUE TO TIME LIMIT ***
