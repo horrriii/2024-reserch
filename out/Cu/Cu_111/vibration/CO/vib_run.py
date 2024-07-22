@@ -6,7 +6,7 @@ from ase.io import read, write
 from ase.calculators.espresso import Espresso
 from ase.optimize import BFGS, GPMin, BFGSLineSearch
 from ase.data import atomic_numbers, atomic_names, atomic_masses, covalent_radii, chemical_symbols
-from ase.units import *
+from ase.units import * # type: ignore
 from ase.calculators.socketio import SocketIOCalculator
 from ase.vibrations import Vibrations
 from ase.thermochemistry import HarmonicThermo
@@ -69,12 +69,12 @@ for image in images_to_compute:
         input_parameters['control']['restart_mode']='from_scratch'
         input_parameters['electrons']['conv_thr']=1e-10*(eV/Ry)
         input_parameters['electrons']['mixing_beta']=1/3
-        write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=True)
+        write(prefix+'.pwi',image,'espresso-in',kpts=kpt_mesh,crystal_coordinates=False,input_data=input_parameters,pseudopotentials=pseudos,tstress=False,tprnfor=True) # type: ignore
         espresso = Espresso(label=prefix, input_data=input_parameters, pseudopotentials=pseudos, kpts=kpt_mesh,tstress=False,tprnfor=True)
-        image.calc=espresso
+        image.calc=espresso # type: ignore
         write('co_ads.xyz',image)
-        image_potential_energy=image.get_potential_energy()
-        traj_to_write_on.write(image)
+        image_potential_energy=image.get_potential_energy() # type: ignore
+        traj_to_write_on.write(image) # type: ignore
         vib=Vibrations(image,indices=[-2,-1],nfree=4)
         vib.run()
         vib.summary(log='vibrational-frequencies.txt')

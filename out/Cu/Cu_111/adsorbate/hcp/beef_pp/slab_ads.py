@@ -65,7 +65,7 @@ def ase_calc(label, ecutwfc):
     )
 
 
-for i in [1050, 1200]:
+for i in [1200]:
     bulk = read("Cu-" + str(i) + "-3.61.pwo", index=-1)
     ads = read("espresso.pwo", index=-1)
 

@@ -12,7 +12,7 @@ module load oneapi_mkl/2023.0.0
 module load oneapi_mpi/2023.0.0
 #
 #export ASE_ESPRESSO_COMMAND="srun ${HOME}/QE/src/qe-7.2/bin/pw.x -nk 3 -nb 32 -ntg 4 -nd 1 -in PREFIX.pwi > PREFIX.pwo"
-export ASE_ESPRESSO_COMMAND="srun -n 192 -c 4 -N 6 ${HOME}/QE/src/qe-7.2/bin/pw.x -nb 16 -in PREFIX.pwi | tee PREFIX.pwo"
+export ASE_ESPRESSO_COMMAND="srun -n 192 -c 4 -N 6 ${HOME}/QE/src/qe-7.2/bin/pw.x -in PREFIX.pwi | tee PREFIX.pwo"
 export ESPRESSO_PSEUDO="/home/k0227/k022716/QE/pseudo"
 
 

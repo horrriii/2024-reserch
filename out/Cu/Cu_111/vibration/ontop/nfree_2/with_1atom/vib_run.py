@@ -59,8 +59,8 @@ def ase_calc(label, ecutwfc):
             "conv_thr": 1.0e-10 * (eV / Ry),
             "mixing_beta": 1 / 3,
             "mixing_ndim": 12,
-            "mixing_mode": "plain",
-            "diagonalization": "david",
+            "mixing_mode": "local-TF",
+            "diagonalization": "cg",
         },
     }
 
@@ -87,6 +87,7 @@ slab_structure.calc = calc
 potentialenergy = slab_structure.get_potential_energy()
 
 vib = Vibrations(slab_structure, indices=[-1,-2,-7], nfree=2)
+write("check.traj",vib.iterimages())
 vib.run()
 vib.summary(log="vibrational-frequencies.txt")
 vib.write_mode()
