@@ -1,5 +1,5 @@
 from ase.io import read, write
 from ase.io import Trajectory
 
-co = Trajectory("vib.0.traj")
-write("ontop0.gif", co[::5], rotation="90x,0y,180z") # type: ignore
+co = Trajectory("vib.1.traj")
+write("ontop1.gif", co[::5], rotation="0x,0y,0z") # type: ignore
