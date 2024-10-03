@@ -1,0 +1,8 @@
+========= Job started  at Thu Oct  3 09:51:02 JST 2024 ==========
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** JOB 2164752 ON c15u03n2 CANCELLED AT 2024-10-03T10:21:27 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+slurmstepd: error: *** STEP 2164752.4 ON c15u03n2 CANCELLED AT 2024-10-03T10:21:27 DUE TO TIME LIMIT ***

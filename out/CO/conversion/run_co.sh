@@ -1,20 +1,24 @@
 #!/bin/sh
 #SBATCH -J CO
 #SBATCH -p i8cpu
-#SBATCH -N 4
+#SBATCH -N 2
 #SBATCH -n 64
-#SBATCH -c 4
-#SBATCH -o LOG
-#SBATCH -e ERR
+#SBATCH -c 2
 
+export FI_PROVIDER=psm3
+export OMP_NUM_THREADS=2
+ulimit -s unlimited
 #
-echo started at 'date'
-#
+module purge
 module load oneapi_compiler/2023.0.0
 module load oneapi_mkl/2023.0.0
 module load oneapi_mpi/2023.0.0
 #
-export ASE_ESPRESSO_COMMAND="mpirun ${HOME}/QE/src/qe-7.2/bin/pw.x -in PREFIX.pwi > PREFIX.pwo"
+export ASE_ESPRESSO_COMMAND="srun ${HOME}/QE/src/qe-7.2/bin/pw.x -in PREFIX.pwi > PREFIX.pwo"
 export ESPRESSO_PSEUDO="/home/k0227/k022716/QE/pseudo"
- 
-python3 ase-qe.py
+
+echo "========= Job started  at `date` =========="
+
+python3 ase-qe.py | tee python.log
+
+echo "========= Job finished at `date` =========="

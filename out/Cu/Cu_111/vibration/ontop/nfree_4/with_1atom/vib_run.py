@@ -85,7 +85,6 @@ user_prefix = "Cu"
 calc = ase_calc(label=user_prefix + "-vib", ecutwfc=ecutwfc)
 slab_structure.calc = calc
 potentialenergy = slab_structure.get_potential_energy()
-
 vib = Vibrations(slab_structure, indices=[-1,-2,-7], nfree=4)
 vib.run()
 vib.summary(log="vibrational-frequencies.txt")

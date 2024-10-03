@@ -75,7 +75,7 @@ for image in images_to_compute:
         write('co_ads.xyz',image)
         image_potential_energy=image.get_potential_energy() # type: ignore
         traj_to_write_on.write(image) # type: ignore
-        vib=Vibrations(image,indices=[-2,-1],nfree=4)
+        vib=Vibrations(image,indices=[-2,-1],nfree=2)
         vib.run()
         vib.summary(log='vibrational-frequencies.txt')
         vib.write_mode()

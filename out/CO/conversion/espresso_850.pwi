@@ -1,0 +1,52 @@
+&CONTROL
+   calculation      = 'relax'
+   title            = 'espresso_850'
+   verbosity        = 'high'
+   restart_mode     = 'restart'
+   tstress          = .false.
+   tprnfor          = .true.
+   outdir           = 'tmp'
+   prefix           = 'espresso_850'
+   etot_conv_thr    = 7.349864494991328e-07
+   forc_conv_thr    = 0.0003889380791481726
+/
+&SYSTEM
+   ecutwfc          = 62.473848207426286
+   ecutrho          = 624.7384820742628
+   nosym            = .true.
+   noinv            = .true.
+   input_dft        = 'beef-vdw'
+   ntyp             = 2
+   nat              = 2
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 9000
+   scf_must_converge = .true.
+   conv_thr         = 7.349864494991328e-12
+   mixing_mode      = 'plain'
+   mixing_beta      = 0.3333333333333333
+   mixing_ndim      = 12
+   diagonalization  = 'david'
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+C 12.011 C.pbe-n-kjpaw_psl.1.0.0.UPF
+O 15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+1 1 1  0 0 0
+
+CELL_PARAMETERS angstrom
+15.00000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 15.00000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 15.00000000000000
+
+ATOMIC_POSITIONS angstrom
+C 0.0000000000 0.0000000000 0.0000000000 
+O 0.0000000000 0.0000000000 1.1300000000 
+

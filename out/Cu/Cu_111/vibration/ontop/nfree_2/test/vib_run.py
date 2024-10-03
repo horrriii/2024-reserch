@@ -35,7 +35,7 @@ def ase_calc(label, ecutwfc):
             "outdir": "tmp",
             "prefix": label,
             "etot_conv_thr": 1e-5 * (eV / Ry),
-            "forc_conv_thr": 0.01 * (eV / Ang) / (Ry / Bohr),
+            "forc_conv_thr": 0.005 * (eV / Ang) / (Ry / Bohr),
             "tprnfor": True,
             "tstress": False,
             # "max_seconds" : 1500
@@ -77,7 +77,7 @@ ecutwfc = 850 * (eV / Ry)
 
 slab_structure = read("relaxed.pwo", index=-1)
 constrain_bottom_layer = FixAtoms(indices=[i for i in range(9)])
-slab_structure.set_constraint(constrain_bottom_layer)
+slab_structure.set_constraint(constrain_bottom_layer) # type: ignore
 structure_trajectory = Trajectory("initial-structure.traj", "w")
 structure_trajectory.write(slab_structure)
 
@@ -88,7 +88,8 @@ slab_structure.calc = calc
 potentialenergy = slab_structure.get_potential_energy()
 
 vib = Vibrations(slab_structure, indices=[-1,-2,31], nfree=2)
-write("check.traj",vib.iterimages())
+
+write("check.traj",vib.iterimages()) # type: ignore
 vib.run()
 vib.summary(log="vibrational-frequencies.txt")
 vib.write_mode()
