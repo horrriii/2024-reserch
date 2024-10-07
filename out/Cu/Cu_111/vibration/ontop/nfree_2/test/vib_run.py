@@ -12,7 +12,7 @@ from ase.data import (
     covalent_radii,
     chemical_symbols,
 )
-from ase.units import *
+from ase.units import * # type: ignore
 from ase.calculators.socketio import SocketIOCalculator
 from ase.vibrations import Vibrations
 from ase.thermochemistry import HarmonicThermo
@@ -29,17 +29,19 @@ def ase_calc(label, ecutwfc):
     input_data = {
         "control": {
             "calculation": "scf",
-            "restart_mode": "restart",
+            "restart_mode": "from_scratch",
+            "wf_collect" : True,
+            "nstep" : 100,
             "title": label,
             "verbosity": "high",
             "outdir": "tmp",
             "prefix": label,
             "etot_conv_thr": 1e-5 * (eV / Ry),
-            "forc_conv_thr": 0.005 * (eV / Ang) / (Ry / Bohr),
+            "forc_conv_thr": 0.01 * (eV / Ang) / (Ry / Bohr),
             "tprnfor": True,
             "tstress": False,
-            # "max_seconds" : 1500
-            # "pseudo": "/home/k0227/k022716/QE/pseudo/",
+            "disk_io" : "nowf",
+            "pseudo_dir": "/home/k0227/k022716/QE/pseudo/",
         },
         "system": {
             "ecutwfc": ecutwfc,
@@ -60,8 +62,9 @@ def ase_calc(label, ecutwfc):
             "conv_thr": 1.0e-10 * (eV / Ry),
             "mixing_beta": 1 / 3,
             "mixing_ndim": 12,
-            "mixing_mode": "local-TF",
-            "diagonalization": "cg",
+            "mixing_mode": "plain",
+            "diagonalization": "david",
+            "diago_david_ndim": 2,
         },
     }
 
@@ -79,16 +82,15 @@ slab_structure = read("relaxed.pwo", index=-1)
 constrain_bottom_layer = FixAtoms(indices=[i for i in range(9)])
 slab_structure.set_constraint(constrain_bottom_layer) # type: ignore
 structure_trajectory = Trajectory("initial-structure.traj", "w")
-structure_trajectory.write(slab_structure)
+structure_trajectory.write(slab_structure) # type: ignore
 
 user_prefix = "Cu"
 
 calc = ase_calc(label=user_prefix + "-vib", ecutwfc=ecutwfc)
-slab_structure.calc = calc
-potentialenergy = slab_structure.get_potential_energy()
+slab_structure.calc = calc # type: ignore
+potentialenergy = slab_structure.get_potential_energy() # type: ignore
 
-vib = Vibrations(slab_structure, indices=[-1,-2,31], nfree=2)
-
+vib = Vibrations(slab_structure, indices=[-1,-2], nfree=2)
 write("check.traj",vib.iterimages()) # type: ignore
 vib.run()
 vib.summary(log="vibrational-frequencies.txt")
@@ -102,3 +104,6 @@ S = thermo.get_entropy(temperature=T_ambient)
 A = thermo.get_helmholtz_energy(temperature=T_ambient)
 with open("helmholtz", "w") as helmholtz_file:
     helmholtz_file.write(str(A))
+
+
+

@@ -1,0 +1,212 @@
+========= Job started  at Thu Oct  3 13:11:07 JST 2024 ==========
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+srun: error: c17u04n2: tasks 32-63: Exited with exit code 3
+srun: launch/slurm: _step_signal: Terminating StepId=2164969.1
+slurmstepd: error: *** STEP 2164969.1 ON c17u01n3 CANCELLED AT 2024-10-03T18:19:43 ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000147E82C71CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000147DFF9A7B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014EE8E904CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014EE0B63AB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E80D4F1CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014E78A227B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000148DEE43ECE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000148D6B174B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014CFB150ECE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014CF2E244B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001500A992FCE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000150026665B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E02B183CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014DFA7EB9B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000155115247CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000155091F7DB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015117E1D2CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001510FAF08B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014576DDBBCE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001456EAAF1B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014E557EC3CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014E4D4BF9B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000152C19BA8CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000152B968DEB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014B9CB844CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014B94857AB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014BA997BDCE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014BA164F3B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014717EB33CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001470FB869B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A6D5966CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014A65269CB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000147A43265CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001479BFF9BB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000148007BCECE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000147F84904B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014BFB75DDCE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014BF34313B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014CE18F86CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014CD95CBCB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001510E918ECE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000151065EC4B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014C9D3233CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014C94FF69B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000149458B92CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001493D58C8B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014C0CD22FCE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014C049F65B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014F7C70D4CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014F743E0AB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A1878F6CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014A10462CB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A8ACBB9CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014A8298EFB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001550EDAF3CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000015506A829B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000149B8D264CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000149B09F9AB08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014ECAF66ACE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014EC2C3A0B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001539F762CCE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000153974362B08  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001502D592ECE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000150252664B08  Unknown               Unknown  Unknown
+srun: error: c17u01n3: tasks 0-31: Exited with exit code 1
+Made images for 111 surface!
+Made images for 111 surface!
+Traceback (most recent call last):
+  File "slab_run.py", line 78, in <module>
+    slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in slab_750.pwi > slab_750.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/slab/step_3 with error code 3
+========= Job finished at Thu Oct  3 18:19:46 JST 2024 ==========

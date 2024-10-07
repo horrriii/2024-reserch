@@ -12,7 +12,7 @@ from ase.data import (
     covalent_radii,
     chemical_symbols,
 )
-from ase.units import *
+from ase.units import * # type: ignore
 from ase.calculators.socketio import SocketIOCalculator
 from ase.vibrations import Vibrations
 from ase.thermochemistry import HarmonicThermo
@@ -29,7 +29,9 @@ def ase_calc(label, ecutwfc):
     input_data = {
         "control": {
             "calculation": "scf",
-            "restart_mode": "restart",
+            "restart_mode": "from_scratch",
+            "wf_collect" : True,
+            "nstep" : 100,
             "title": label,
             "verbosity": "high",
             "outdir": "tmp",
@@ -38,7 +40,8 @@ def ase_calc(label, ecutwfc):
             "forc_conv_thr": 0.01 * (eV / Ang) / (Ry / Bohr),
             "tprnfor": True,
             "tstress": False,
-            # "pseudo": "/home/k0227/k022716/QE/pseudo/",
+            "disk_io" : "nowf",
+            "pseudo_dir": "/home/k0227/k022716/QE/pseudo/",
         },
         "system": {
             "ecutwfc": ecutwfc,
@@ -59,8 +62,9 @@ def ase_calc(label, ecutwfc):
             "conv_thr": 1.0e-10 * (eV / Ry),
             "mixing_beta": 1 / 3,
             "mixing_ndim": 12,
-            "mixing_mode": "local-TF",
-            "diagonalization": "cg",
+            "mixing_mode": "plain",
+            "diagonalization": "david",
+            "diago_david_ndim": 2,
         },
     }
 
@@ -76,16 +80,18 @@ ecutwfc = 850 * (eV / Ry)
 
 slab_structure = read("relaxed.pwo", index=-1)
 constrain_bottom_layer = FixAtoms(indices=[i for i in range(9)])
-slab_structure.set_constraint(constrain_bottom_layer)
+slab_structure.set_constraint(constrain_bottom_layer) # type: ignore
 structure_trajectory = Trajectory("initial-structure.traj", "w")
-structure_trajectory.write(slab_structure)
+structure_trajectory.write(slab_structure) # type: ignore
 
 user_prefix = "Cu"
 
 calc = ase_calc(label=user_prefix + "-vib", ecutwfc=ecutwfc)
-slab_structure.calc = calc
-potentialenergy = slab_structure.get_potential_energy()
+slab_structure.calc = calc # type: ignore
+potentialenergy = slab_structure.get_potential_energy() # type: ignore
+
 vib = Vibrations(slab_structure, indices=[-1,-2,-7], nfree=4)
+write("check.traj",vib.iterimages()) # type: ignore
 vib.run()
 vib.summary(log="vibrational-frequencies.txt")
 vib.write_mode()

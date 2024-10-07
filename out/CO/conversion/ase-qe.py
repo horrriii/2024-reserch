@@ -3,7 +3,7 @@ import json
 from ase.io import read, write
 from ase import Atoms
 from ase.calculators.espresso import Espresso
-from ase.units import *
+from ase.units import * # type: ignore
 from ase.optimize import BFGS
 from ase.constraints import UnitCellFilter
 

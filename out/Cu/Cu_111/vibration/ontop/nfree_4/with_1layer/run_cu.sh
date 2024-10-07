@@ -1,6 +1,6 @@
 #!/bin/sh
 #SBATCH -J Cu_111
-#SBATCH -p L16cpu
+#SBATCH -p F16cpu
 #SBATCH -N 6
 
 export FI_PROVIDER=psm3
