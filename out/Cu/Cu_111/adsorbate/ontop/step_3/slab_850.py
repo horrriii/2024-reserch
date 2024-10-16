@@ -17,19 +17,20 @@ def ase_calc(label, ecutwfc, outdir):
 
     input_data = {
         "control": {
-            "calculation": "scf",
-            "restart_mode": "from_scratch",
+            "calculation": "relax",
+            "restart_mode": "restart",
             "wf_collect" : True,
             "nstep" : 100,
             "title": label,
             "verbosity": "high",
-            "outdir": "tmp",
+            "outdir": outdir,
             "prefix": label,
             "etot_conv_thr": 1e-5 * (eV / Ry),
             "forc_conv_thr": 0.01 * (eV / Ang) / (Ry / Bohr),
             "tprnfor": True,
             "tstress": False,
             "disk_io" : "nowf",
+            "max_seconds":86000,
             "pseudo_dir": "/home/k0227/k022716/QE/pseudo/",
         },
         "system": {
@@ -51,8 +52,8 @@ def ase_calc(label, ecutwfc, outdir):
             "conv_thr": 1.0e-10 * (eV / Ry),
             "mixing_beta": 1 / 3,
             "mixing_ndim": 12,
-            "mixing_mode": "plain",
-            "diagonalization": "david",
+            "mixing_mode": "local-TF",
+            "diagonalization": "cg",
             "diago_david_ndim": 2,
         },
     }

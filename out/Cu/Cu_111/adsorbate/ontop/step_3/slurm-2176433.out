@@ -1,0 +1,327 @@
+========= Job started  at Sun Oct 13 11:14:50 JST 2024 ==========
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+255
+srun: error: c21u10n4: tasks 107-127: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=2176433.0
+srun: error: c21u10n3: tasks 86-106: Exited with exit code 255
+srun: error: c21u05n4: tasks 65-85: Exited with exit code 255
+slurmstepd: error: *** STEP 2176433.0 ON c21u03n3 CANCELLED AT 2024-10-14T11:09:39 ***
+srun: error: c21u04n4: tasks 44-64: Exited with exit code 255
+srun: error: c21u03n4: tasks 22-43: Exited with exit code 255
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A1BE057CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014A162DB8E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014A162D993CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014A16421E309  Unknown               Unknown  Unknown
+libfabric.so.1     000014A16421E367  Unknown               Unknown  Unknown
+libfabric.so.1     000014A16421D7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014BB4B42FCE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014BAF0190E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014BAF01713CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014BAF15F6309  Unknown               Unknown  Unknown
+libfabric.so.1     000014BAF15F6367  Unknown               Unknown  Unknown
+libfabric.so.1     000014BAF15F57EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014970CA9BCE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001496B17FCE30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001496B17DD3CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001496B2C62309  Unknown               Unknown  Unknown
+libfabric.so.1     00001496B2C62367  Unknown               Unknown  Unknown
+libfabric.so.1     00001496B2C617EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014EF0C074CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014EEB0DD5E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014EEB0DB63CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014EEB223B309  Unknown               Unknown  Unknown
+libfabric.so.1     000014EEB223B367  Unknown               Unknown  Unknown
+libfabric.so.1     000014EEB223A7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014FF0EF20CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014FEB3C81E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014FEB3C623CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014FEB50E7309  Unknown               Unknown  Unknown
+libfabric.so.1     000014FEB50E7367  Unknown               Unknown  Unknown
+libfabric.so.1     000014FEB50E67EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015178FC9ACE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001517349FBE30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001517349DC3CE  Unknown               Unknown  Unknown
+libfabric.so.1     0000151735E61309  Unknown               Unknown  Unknown
+libfabric.so.1     0000151735E61367  Unknown               Unknown  Unknown
+libfabric.so.1     0000151735E607EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001487F2206CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000148796F67E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       0000148796F483CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001487983CD309  Unknown               Unknown  Unknown
+libfabric.so.1     00001487983CD367  Unknown               Unknown  Unknown
+libfabric.so.1     00001487983CC7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014B5F1521CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014B596282E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014B5962633CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014B5976E8309  Unknown               Unknown  Unknown
+libfabric.so.1     000014B5976E8367  Unknown               Unknown  Unknown
+libfabric.so.1     000014B5976E77EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001474B88B4CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014745D615E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014745D5F63CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014745EA7B309  Unknown               Unknown  Unknown
+libfabric.so.1     000014745EA7B367  Unknown               Unknown  Unknown
+libfabric.so.1     000014745EA7A7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014CBEB60FCE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014CB90370E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014CB903513CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014CB917D6309  Unknown               Unknown  Unknown
+libfabric.so.1     000014CB917D6367  Unknown               Unknown  Unknown
+libfabric.so.1     000014CB917D57EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001549E03FECE0  Unknown               Unknown  Unknown
+libshm-fi.so       000015498515FE30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001549851403CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001549865C5309  Unknown               Unknown  Unknown
+libfabric.so.1     00001549865C5367  Unknown               Unknown  Unknown
+libfabric.so.1     00001549865C47EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00001523D3572CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001523782D3E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001523782B43CE  Unknown               Unknown  Unknown
+libfabric.so.1     0000152379739309  Unknown               Unknown  Unknown
+libfabric.so.1     0000152379739367  Unknown               Unknown  Unknown
+libfabric.so.1     00001523797387EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015150D61BCE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001514B237CE30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001514B235D3CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001514B37E2309  Unknown               Unknown  Unknown
+libfabric.so.1     00001514B37E2367  Unknown               Unknown  Unknown
+libfabric.so.1     00001514B37E17EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014EFFA195CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014EF9EEF6E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014EF9EED73CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014EFA035C309  Unknown               Unknown  Unknown
+libfabric.so.1     000014EFA035C367  Unknown               Unknown  Unknown
+libfabric.so.1     000014EFA035B7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014AFBF505CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014AF64266E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014AF642473CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014AF656CC309  Unknown               Unknown  Unknown
+libfabric.so.1     000014AF656CC367  Unknown               Unknown  Unknown
+libfabric.so.1     000014AF656CB7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000015091F865CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001508C45C6E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001508C45A73CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001508C5A2C309  Unknown               Unknown  Unknown
+libfabric.so.1     00001508C5A2C367  Unknown               Unknown  Unknown
+libfabric.so.1     00001508C5A2B7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014A08DD06CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014A032A67E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014A032A483CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014A033ECD309  Unknown               Unknown  Unknown
+libfabric.so.1     000014A033ECD367  Unknown               Unknown  Unknown
+libfabric.so.1     000014A033ECC7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000153DE3C72CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000153D889D3E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       0000153D889B43CE  Unknown               Unknown  Unknown
+libfabric.so.1     0000153D89E39309  Unknown               Unknown  Unknown
+libfabric.so.1     0000153D89E39367  Unknown               Unknown  Unknown
+libfabric.so.1     0000153D89E387EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000152910FA0CE0  Unknown               Unknown  Unknown
+libshm-fi.so       00001528B5D01E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001528B5CE23CE  Unknown               Unknown  Unknown
+libfabric.so.1     00001528B7167309  Unknown               Unknown  Unknown
+libfabric.so.1     00001528B7167367  Unknown               Unknown  Unknown
+libfabric.so.1     00001528B71667EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  000014FFEDDF4CE0  Unknown               Unknown  Unknown
+libshm-fi.so       000014FF92B55E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       000014FF92B363CE  Unknown               Unknown  Unknown
+libfabric.so.1     000014FF93FBB309  Unknown               Unknown  Unknown
+libfabric.so.1     000014FF93FBB367  Unknown               Unknown  Unknown
+libfabric.so.1     000014FF93FBA7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000153882BD6CE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000153827937E30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       00001538279183CE  Unknown               Unknown  Unknown
+libfabric.so.1     0000153828D9D309  Unknown               Unknown  Unknown
+libfabric.so.1     0000153828D9D367  Unknown               Unknown  Unknown
+libfabric.so.1     0000153828D9C7EF  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  0000151F23F4BCE0  Unknown               Unknown  Unknown
+libshm-fi.so       0000151EC8CACE30  smr_cleanup           Unknown  Unknown
+libshm-fi.so       0000151EC8C8D3CE  Unknown               Unknown  Unknown
+libfabric.so.1     0000151ECA112309  Unknown               Unknown  Unknown
+libfabric.so.1     0000151ECA112367  Unknown               Unknown  Unknown
+libfabric.so.1     0000151ECA1117EF  Unknown               Unknown  Unknown
+srun: error: c21u03n3: tasks 0-21: Exited with exit code 1
+Made images for 111 surface!
+Traceback (most recent call last):
+  File "slab_850.py", line 85, in <module>
+    slab_structure.get_potential_energy()
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/k0227/k022716/ASE/ase/lib64/python3.8/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "srun /home/k0227/k022716/QE/src/qe-7.2/bin/pw.x -in slab_850.pwi > slab_850.pwo" failed in /home/k0227/k022716/QE/out/Cu/Cu_111/adsorbate/ontop/step_3 with error code 255
+========= Job finished at Mon Oct 14 11:09:44 JST 2024 ==========

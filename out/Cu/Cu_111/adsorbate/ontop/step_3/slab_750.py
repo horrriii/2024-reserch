@@ -18,7 +18,7 @@ def ase_calc(label, ecutwfc, outdir):
     input_data = {
         "control": {
             "calculation": "relax",
-            "restart_mode": "from_scratch",
+            "restart_mode": "restart",
             "title": label,
             "verbosity": "high",
             "outdir": outdir,
@@ -27,6 +27,7 @@ def ase_calc(label, ecutwfc, outdir):
             "forc_conv_thr": 0.01 * (eV / Ang) / (Ry / Bohr),
             "tprnfor": True,
             "tstress": False,
+            "max_seconds":86000,
             # "pseudo": "/home/r0147/r014705/QE/pseudo/",
         },
         "system": {

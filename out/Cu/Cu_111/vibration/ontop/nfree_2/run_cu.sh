@@ -18,6 +18,6 @@ export ESPRESSO_PSEUDO="/home/k0227/k022716/QE/pseudo"
 
 echo "========= Job started  at `date` =========="
 
-python3 au.py | tee python.log
+python3 vib_run.py | tee python.log
 
 echo "========= Job finished at `date` =========="

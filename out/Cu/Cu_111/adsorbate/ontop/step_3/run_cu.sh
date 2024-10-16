@@ -1,8 +1,8 @@
 #!/bin/sh
 #SBATCH -J Cu_ads
-#SBATCH -p F4cpu
-#SBATCH -N 2
-#SBATCH -n 64
+#SBATCH -p F16cpu
+#SBATCH -N 6
+#SBATCH -n 128
 #SBATCH -c 2
 
 export FI_PROVIDER=psm3
